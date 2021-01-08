@@ -1,5 +1,0 @@
-[submodule "counter5-openedition"]
-	branch = master
-	path = counter5-openedition
-	url = https://github.com/openedition/counter5-openedition.git
-

@@ -1,0 +1,3 @@
+[submodule "counter5-openedition"]
+	path = counter5-openedition
+	url = git@github.com:OpenEdition/counter5-openedition.git
