@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OpenEdition Counter 5 Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-10 10:09+0100\n"
-"PO-Revision-Date: 2021-01-10 12:42+0100\n"
+"PO-Revision-Date: 2021-01-10 22:03+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -25,73 +25,83 @@ msgstr "Credentials"
 
 #: ../../en/doc.rst:5
 msgid "Service Counter 5"
-msgstr ""
+msgstr "Counter 5 Service"
 
 #: ../../en/doc.rst:7
 msgid "URL : https://counter5.openedition.org"
-msgstr ""
+msgstr "URL: https://counter5.openedition.org"
 
 #: ../../en/doc.rst:8 ../../en/doc.rst:21
 msgid "Identifiants Institution :"
-msgstr ""
+msgstr "Institution Credentials:"
 
 #: ../../en/doc.rst:10
 msgid ""
 "nom d'utilisateur et mot de passe identiques à vos identifiants de l'espace "
 "Freemium |_| : https://freemium.openedition.org/library"
 msgstr ""
+"username and password are identical to your Library Backoffice credentials: "
+"https://freemium.openedition.org/library"
 
 #: ../../en/doc.rst:12 ../../en/doc.rst:31
 msgid "Identifiants Consortium :"
-msgstr ""
+msgstr "Consortium credentials:"
 
 #: ../../en/doc.rst:14 ../../en/doc.rst:33
 msgid ""
 "Demandez vos identifiants par email à l'adresse |_| : assistance-"
 "abonnes@openedition.org"
 msgstr ""
+"Ask for your credentials by email at the following address: assistance-"
+"abonnes@openedition.org"
 
 #: ../../en/doc.rst:17 ../../en/doc.rst:391
 msgid "API Sushi"
-msgstr ""
+msgstr "Sushi API"
 
 #: ../../en/doc.rst:19
 msgid "URL : https://counter5.openedition.org/api"
-msgstr ""
+msgstr "URL: https://counter5.openedition.org/api"
 
 #: ../../en/doc.rst:20
 msgid "URL documentation : https://counter5.openedition.org/api/doc"
-msgstr ""
+msgstr "Documentation URL: https://counter5.openedition.org/api/doc"
 
 #: ../../en/doc.rst:23
 msgid ""
 "Nom d'utilisateur (``requestor_id``) : identique à votre nom d'utilisateur de "
 "l'espace Freemium |_| : https://freemium.openedition.org/library"
 msgstr ""
+"``requestor_id``: identical to your Library Backoffice Username: https://"
+"freemium.openedition.org/library"
 
 #: ../../en/doc.rst:24
 msgid ""
 "Clé d'authentification (``api_key``) : vous pouvez obtenir et régénerer votre "
 "clé dans l'`espace Freemium <https://freemium.openedition.org/library>`_ |_| :"
 msgstr ""
+"``api_key``: you can retrieve and regenerate your API Key in your `Library "
+"backoffice <https://freemium.openedition.org/library>`_:"
 
 #: ../../en/doc.rst:26
 msgid "*Menu API* > *Clé d'authentification*."
-msgstr ""
+msgstr "*API Menu* > *Authentication Key*."
 
 #: ../../en/doc.rst:27
 msgid ""
 "Si elle n'est pas générée ou si vous souhaitez la modifier, cliquez sur "
 "`Générer une nouvelle clé`."
 msgstr ""
+"If it is not generated or if you want to modify it, click on `Generate a new "
+"key`."
 
 #: ../../en/doc.rst:29
 msgid "``customer_id`` : identique au ``requestor_id``."
-msgstr ""
+msgstr "``customer_id`` : identical to ``requestor_id``."
 
 #: ../../en/doc.rst:38
 msgid "Rapports disponibles"
-msgstr ""
+msgstr "Available Reports"
 
 #: ../../en/doc.rst:40
 msgid ""
@@ -100,12 +110,17 @@ msgid ""
 "Views* pour lesquelles les Metric Types, les filtres et les attributs sont "
 "présélectionnés."
 msgstr ""
+"Available reports are presented below. Each Report is provided in the form of "
+"a *Master Report*, customizable with parameters, and *Standard Views* where "
+"Metric Types, filters and attributes are preselected."
 
 #: ../../en/doc.rst:42
 msgid ""
 "Les *Metric Types* sont les différentes mesures d'usage définies par Counter. "
 "Vous trouverez plus bas une description de chacune."
 msgstr ""
+"The *Metric Types* are usage metrics defined by Counter. You will find below a "
+"description of each."
 
 #: ../../en/doc.rst:44
 msgid ""
@@ -114,6 +129,9 @@ msgid ""
 "``YOP=2020`` (*Year Of Publication*) limitera le rapport aux contenus publiés "
 "en 2020."
 msgstr ""
+"Using a *filter* in a Master Report limits the content of the report to a "
+"particular criterion. For example the choice of a filter ``YOP=2020`` (*Year "
+"Of Publication*) will limit the report to content published in 2020."
 
 #: ../../en/doc.rst:46
 msgid ""
@@ -122,6 +140,10 @@ msgid ""
 "(`Year Of Publication`) pour un rapport TR renverra les métriques pour chaque "
 "type par année de publication."
 msgstr ""
+"Using an *attribute* in a Master Report distribute each metric according to "
+"this attribute. For example, choosing a YOP (``Year Of Publication``) "
+"attribute for a TR report will return the metrics for each type broken down by "
+"year of publication."
 
 #: ../../en/doc.rst:50
 msgid "Platform Reports"
@@ -136,6 +158,8 @@ msgid ""
 "Rapport personnalisable résumant l'activité sur l'ensemble de la plateforme. "
 "Il est paramétrable (filtres et attributs)."
 msgstr ""
+"A customizable report summarizing activity across a content provider’s "
+"platforms that allows the user to apply filters and attributes."
 
 #: ../../en/doc.rst:57 ../../en/doc.rst:86 ../../en/doc.rst:112
 #: ../../en/doc.rst:150 ../../en/doc.rst:174 ../../en/doc.rst:197
@@ -150,7 +174,7 @@ msgstr ""
 
 #: ../../en/doc.rst:61 ../../en/doc.rst:116
 msgid "**Metric Types disponibles** :"
-msgstr ""
+msgstr "**Available Metric Types** :"
 
 #: ../../en/doc.rst:63 ../../en/doc.rst:118 ../../en/doc.rst:203
 #: ../../en/doc.rst:280
@@ -189,7 +213,7 @@ msgstr ""
 
 #: ../../en/doc.rst:71 ../../en/doc.rst:127
 msgid "**Filtres disponibles** :"
-msgstr ""
+msgstr "**Available Filters** :"
 
 #: ../../en/doc.rst:73 ../../en/doc.rst:78 ../../en/doc.rst:129
 #: ../../en/doc.rst:137
@@ -203,7 +227,7 @@ msgstr ""
 
 #: ../../en/doc.rst:76 ../../en/doc.rst:135
 msgid "**Attributs disponibles** :"
-msgstr ""
+msgstr "**Available Attributes** :"
 
 #: ../../en/doc.rst:82
 msgid "PR_P1 | Platform Usage"
@@ -211,7 +235,7 @@ msgstr ""
 
 #: ../../en/doc.rst:84
 msgid "Rapport d'usage de la plateforme OpenEdition distribué par *Metric Type*."
-msgstr ""
+msgstr "Platform-level usage summarized by *Metric Type*."
 
 #: ../../en/doc.rst:88 ../../en/doc.rst:152 ../../en/doc.rst:176
 #: ../../en/doc.rst:199 ../../en/doc.rst:228 ../../en/doc.rst:252
@@ -223,13 +247,13 @@ msgstr ""
 #: ../../en/doc.rst:201 ../../en/doc.rst:230 ../../en/doc.rst:254
 #: ../../en/doc.rst:278 ../../en/doc.rst:304
 msgid "**Metric Types présélectionnés** :"
-msgstr ""
+msgstr "**Preselected Metric Types** :"
 
 #: ../../en/doc.rst:96 ../../en/doc.rst:159 ../../en/doc.rst:183
 #: ../../en/doc.rst:210 ../../en/doc.rst:235 ../../en/doc.rst:259
 #: ../../en/doc.rst:285 ../../en/doc.rst:309
 msgid "**Filtres présélectionnés** :"
-msgstr ""
+msgstr "**Preselected Filters** :"
 
 #: ../../en/doc.rst:98 ../../en/doc.rst:163 ../../en/doc.rst:186
 #: ../../en/doc.rst:213 ../../en/doc.rst:239 ../../en/doc.rst:262
@@ -241,11 +265,11 @@ msgstr ""
 #: ../../en/doc.rst:215 ../../en/doc.rst:241 ../../en/doc.rst:264
 #: ../../en/doc.rst:290 ../../en/doc.rst:315
 msgid "**Attributs présélectionnés** :"
-msgstr ""
+msgstr "**Preselected Attributes** :"
 
 #: ../../en/doc.rst:102 ../../en/doc.rst:243 ../../en/doc.rst:266
 msgid "aucun"
-msgstr ""
+msgstr "none"
 
 #: ../../en/doc.rst:105
 msgid "Title Reports"
@@ -260,6 +284,8 @@ msgid ""
 "Rapport personnalisable détaillant l'activité pour chaque titre, c'est-à-dire "
 "pour chaque livre et chaque revue. Il est paramétrable (filtres et attributs)."
 msgstr ""
+"Customizable report detailing activity at the title level (journal, book) that "
+"allows the user to apply filters and attributes."
 
 #: ../../en/doc.rst:124 ../../en/doc.rst:180 ../../en/doc.rst:256
 #: ../../en/doc.rst:363
@@ -294,6 +320,8 @@ msgid ""
 "Rapports sur l'activité en texte intégral pour les livres, hors contenus en "
 "Open Access."
 msgstr ""
+"Reports on full-text activity for books, excluding Gold Open Access content, "
+"as Total_Item_Requests and Unique_Title_Requests."
 
 #: ../../en/doc.rst:161 ../../en/doc.rst:185 ../../en/doc.rst:212
 msgid "Data_Type=Book"
@@ -314,6 +342,10 @@ msgid ""
 "simultanés à une ressource. Le Metric_Type Limit_Exceeded ne renvoie donc "
 "aucun résultat."
 msgstr ""
+"Reports on Access Denied activity for books where users were denied access "
+"because their institution did not have a license for the book. OpenEdition "
+"does not limit the number of simultaneous accesses to a resource. The "
+"Metric_Type Limit_Exceeded does not return any results."
 
 #: ../../en/doc.rst:193
 msgid "TR_B3 | Book Usage by Access Type"
@@ -324,6 +356,8 @@ msgid ""
 "Rapport portant sur l'utilisation des livres indiquant tous les Metric_Types "
 "applicables, distribués par Access_Type (Controlled ou OA_Gold)."
 msgstr ""
+"Reports on book usage showing all applicable Metric_Types broken down by "
+"Access_Type."
 
 #: ../../en/doc.rst:222
 msgid "TR_J1 | Journal Requests (Excluding OA_Gold)"
@@ -334,6 +368,8 @@ msgid ""
 "Rapports sur l'activité en texte intégral pour les revues, hors contenus en "
 "Open Access."
 msgstr ""
+"Reports on usage of journal content, excluding Gold Open Access content, as "
+"Total_Item_Requests and Unique_Item_Requests."
 
 #: ../../en/doc.rst:237 ../../en/doc.rst:261 ../../en/doc.rst:287
 #: ../../en/doc.rst:311
@@ -351,6 +387,10 @@ msgid ""
 "simultanés à une ressource. Le Metric_Type Limit_Exceeded ne renvoie donc "
 "aucun résultat."
 msgstr ""
+"Reports on Access Denied activity for journal content where users were denied "
+"access because their institution did not have a license for the title. "
+"OpenEdition does not limit the number of simultaneous accesses to a resource. "
+"The Metric_Type Limit_Exceeded does not return any results."
 
 #: ../../en/doc.rst:270
 msgid "TR_J3 | Journal Usage by Access Type"
@@ -361,6 +401,8 @@ msgid ""
 "Rapport portant sur l'utilisation des revues indiquant tous les Metric_Types "
 "applicables, distribués par Access_Type (Controlled ou OA_Gold)."
 msgstr ""
+"Reports on usage of journal content for all Metric_Types broken down by "
+"Access_Type (Controlled or OA_Gold)."
 
 #: ../../en/doc.rst:296
 msgid "TR_J4 | Journal Requests by YOP (Excluding OA_Gold)"
@@ -371,6 +413,9 @@ msgid ""
 "Rapport comptablisant les accès au texte intégral pour les revues, hors "
 "contenu en Open Access, distribué par année de publication."
 msgstr ""
+"Breaks down the usage of journal content, excluding Gold Open Access content, "
+"by year of publication (YOP), providing counts for the Metric_Types "
+"Total_Item_Requests and Unique_Item_Requests."
 
 #: ../../en/doc.rst:320
 msgid "Metric types"
