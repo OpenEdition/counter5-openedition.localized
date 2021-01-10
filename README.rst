@@ -17,6 +17,7 @@ Create the Githb repo, then :
    cd counter5-documentation.localized
 
 Add submodule, symblinks to main documentation rst files and create conf.py
+
 .. code-block:: sh
 
    git submodule add "git@github.com:OpenEdition/counter5-openedition.git" counter5-openedition
@@ -31,8 +32,6 @@ Add submodule, symblinks to main documentation rst files and create conf.py
    ln -s ../../counter5-openedition/docs/source/doc.rst .
    ln -s ../../counter5-openedition/docs/source/index.rst .
    vi conf.py # copy and ajust from https://github.com/OpenEdition/tei.openedition.localized/blob/master/docs/en/conf.py
-
-
 
 How to initialize after git clone
 =========================================================
