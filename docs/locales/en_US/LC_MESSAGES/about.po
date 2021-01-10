@@ -4,19 +4,20 @@
 # 5 Documentation package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: OpenEdition Counter 5 Documentation \n"
+"Project-Id-Version: OpenEdition Counter 5 Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-10 10:09+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 2021-01-10 12:42+0100\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Generated-By: Babel 2.7.0\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_US\n"
+"X-Generator: Poedit 2.3\n"
 
 #: ../../en/about.rst:2
 msgid "OpenEdition"
@@ -26,17 +27,17 @@ msgstr ""
 msgid ""
 "OpenEdition est une infrastructure complète d’édition électronique au "
 "service de l’information scientifique en sciences humaines et sociales. "
-"D’envergure internationale, le portail `OpenEdition "
-"<https://www.openedition.org>`_ inclut quatre plateformes de publication "
-"et d’information en sciences humaines et sociales : `OpenEdition Journals"
-" <https://journals.openedition.org>`_ (les revues), `OpenEdition Books "
+"D’envergure internationale, le portail `OpenEdition <https://www."
+"openedition.org>`_ inclut quatre plateformes de publication et "
+"d’information en sciences humaines et sociales : `OpenEdition Journals "
+"<https://journals.openedition.org>`_ (les revues), `OpenEdition Books "
 "<https://books.openedition.org>`_ (les collections de livres), "
 "`Hypotheses <https://hypotheses.org>`_ (les carnets de recherche) et "
 "`Calenda <https://calenda.org>`_ (les annonces d’événements académiques "
 "internationaux). Le portail constitue ainsi un espace dédié à la "
 "valorisation de la recherche, publiant des dizaines de milliers de "
-"documents scientifiques qui promeuvent l’accès ouvert, dans le respect de"
-" l’équilibre économique des publications."
+"documents scientifiques qui promeuvent l’accès ouvert, dans le respect "
+"de l’équilibre économique des publications."
 msgstr ""
 
 #: ../../en/about.rst:8
@@ -45,13 +46,13 @@ msgstr ""
 
 #: ../../en/about.rst:11
 msgid "Licence"
-msgstr ""
+msgstr "License"
 
 #: ../../en/about.rst:18
 msgid ""
 "La documentation Counter 5 OpenEdition est mise à disposition sous la "
-"licence `Creative Commons Attribution 4.0 International "
-"<http://creativecommons.org/licenses/by/4.0/>`_."
+"licence `Creative Commons Attribution 4.0 International <http://"
+"creativecommons.org/licenses/by/4.0/>`_."
 msgstr ""
 
 #: ../../en/about.rst:22
@@ -66,7 +67,6 @@ msgstr ""
 
 #: ../../en/about.rst:25
 msgid ""
-"Pour les autres questions sur le service Counter 5 : "
-"counter@openedition.org"
+"Pour les autres questions sur le service Counter 5 : counter@openedition."
+"org"
 msgstr ""
-
