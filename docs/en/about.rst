@@ -1,0 +1,1 @@
+../../counter5-openedition/docs/source/about.rst

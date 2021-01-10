@@ -1,0 +1,89 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 2021, OpenEdition
+# This file is distributed under the same license as the OpenEdition Counter
+# 5 Documentation package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2021.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: OpenEdition Counter 5 Documentation \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-01-10 10:09+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.7.0\n"
+
+#: ../../en/index.rst:28
+msgid "Documentation Counter 5"
+msgstr ""
+
+#: ../../en/index.rst:35
+msgid "À propos"
+msgstr ""
+
+#: ../../en/index.rst:3
+msgid "Documentation du service Counter 5 d'OpenEdition"
+msgstr ""
+
+#: ../../en/index.rst:5
+msgid "DRAFT VERSION !!!"
+msgstr ""
+
+#: ../../en/index.rst:8
+msgid ""
+"Cette documentation est disponible en français et en anglais. Cliquez sur"
+" le menu \"Read the Docs\" en bas à gauche pour accéder aux différentes "
+"versions."
+msgstr ""
+
+#: ../../en/index.rst:11
+msgid ""
+"*This documentation is available in French end English. Expand the \"Read"
+" the Docs\" panel at the bottom of the sidebar to see the different "
+"versions.*"
+msgstr ""
+
+#: ../../en/index.rst:15
+msgid ""
+"Cette application permet aux institutions et aux consortia abonnés à "
+"*OpenEdition Freemium for Journals* ou à *OpenEdition Freemium for Books*"
+" de consulter leurs statistiques d'usage de la platforme OpenEdition au "
+"format Counter 5."
+msgstr ""
+
+#: ../../en/index.rst:17
+msgid ""
+"Le code des bonnes pratiques Counter 5 est disponible en anglais sur le "
+"site de Counter |_| : https://www.projectcounter.org/code-of-practice-"
+"five-sections/abstract/."
+msgstr ""
+
+#: ../../en/index.rst:19
+msgid ""
+"Elle a été traduite en français dans sa version 5.0.1 par l’Inist-CNRS et"
+" le consortium Couperin.org |_| : https://www.projectcounter.org"
+"/telecharger-ici-le-code-de-bonnes-pratiques-counter_v5_fr_5-0-1-en-"
+"version-pdf/"
+msgstr ""
+
+#: ../../en/index.rst:22
+msgid "Les rapports proposés sont disponibles |_| :"
+msgstr ""
+
+#: ../../en/index.rst:24
+msgid ""
+"sous forme de fichiers tsv, accessibles via le service "
+"https://counter5.openedition.org |_| ;"
+msgstr ""
+
+#: ../../en/index.rst:25
+msgid ""
+"au format json accessibles via le protocole Sushi à l'adresse suivante : "
+"https://counter5.openedition.org/api."
+msgstr ""
+
