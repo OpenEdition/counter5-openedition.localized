@@ -1,3 +1,4 @@
 [submodule "counter5-openedition"]
+	branch = master
 	path = counter5-openedition
 	url = git@github.com:OpenEdition/counter5-openedition.git
