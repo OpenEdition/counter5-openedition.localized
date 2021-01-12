@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OpenEdition Counter 5 Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2021-01-12 21:18+0100\n"
-"PO-Revision-Date: 2021-01-12 22:09+0100\n"
+"PO-Revision-Date: 2021-01-12 22:20+0100\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: \n"
@@ -471,7 +471,7 @@ msgstr ""
 
 #: ../../en/doc.rst:334
 msgid "Total_Item_Investigations et Total_Item_Requests"
-msgstr "otal_Item_Investigations and Total_Item_Requests"
+msgstr "Total_Item_Investigations and Total_Item_Requests"
 
 #: ../../en/doc.rst:336
 msgid ""
@@ -755,7 +755,7 @@ msgid ""
 msgstr ""
 "This behavior also applies to Sushi which will return the exception 1011 "
 "defined by Counter 5: https://www.projectcounter.org/appendix-f-handling-"
-"errors-exceptions/."
+"errors-exceptions/"
 
 #: ../../en/doc.rst:426
 msgid ""
