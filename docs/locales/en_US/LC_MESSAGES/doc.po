@@ -8,15 +8,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenEdition Counter 5 Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-10 10:09+0100\n"
-"PO-Revision-Date: 2021-01-12 21:16+0100\n"
+"POT-Creation-Date: 2021-01-12 21:18+0100\n"
+"PO-Revision-Date: 2021-01-12 22:09+0100\n"
+"Last-Translator: \n"
+"Language: en_US\n"
+"Language-Team: \n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.7.0\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: en_US\n"
+"Generated-By: Babel 2.6.0\n"
 "X-Generator: Poedit 2.3\n"
 
 #: ../../en/doc.rst:2
@@ -430,6 +431,8 @@ msgid ""
 "La spécification Counter 5 distingue les consultations d'éléments de contenu "
 "selon les types *Request* et *Investigation*."
 msgstr ""
+"The Counter 5 specification divides the consultation of content elements "
+"according to the types *Request* and *Investigation*."
 
 #: ../../en/doc.rst:327
 msgid ""
@@ -437,6 +440,9 @@ msgid ""
 "article en HTML ou en PDF, un numéro de revue complet en PDF, un chapitre de "
 "livre ou un livre complet, en  HTML, PDF ou ePub."
 msgstr ""
+"A *Request* is an access to a full text content item: an article in HTML or "
+"PDF, a full journal issue in PDF, a book chapter or a full book, in HTML, PDF "
+"or ePub."
 
 #: ../../en/doc.rst:329
 msgid ""
@@ -444,9 +450,14 @@ msgid ""
 "a des informations présentant cet élément de contenu : les accès aux sommaires "
 "de numéros de revues ou de livres, les accès aux résumés des articles sous "
 "barrière mobile, les accès aux résumés des chapitres de livres en accès "
-"exclusif et tous les accès considérés comme *Investigations*. Notez que les "
-"accès de type *Requests* sont aussi comptabilisés dans les *Investigations*."
+"exclusif. Notez que les accès de type *Requests* sont aussi comptabilisés dans "
+"les *Investigations*."
 msgstr ""
+"An *Investigation* is an access to a full-text content item OR to information "
+"presenting that content item: access to journal issue or book, access to "
+"abstracts of moving wall articles, access to abstracts of books an book "
+"chapters in exclusive access. Note that Requests accesses are also counted in "
+"Investigations."
 
 #: ../../en/doc.rst:331
 msgid ""
@@ -454,10 +465,13 @@ msgid ""
 "Counter à l'adresse suivante : https://www.projectcounter.org/code-of-practice-"
 "five-sections/3-0-technical-specifications/#commonattributes."
 msgstr ""
+"You can read the complete and illustrated description formulated by Counter at "
+"the following URL: https://www.projectcounter.org/code-of-practice-five-"
+"sections/3-0-technical-specifications/#commonattributes."
 
 #: ../../en/doc.rst:334
 msgid "Total_Item_Investigations et Total_Item_Requests"
-msgstr ""
+msgstr "otal_Item_Investigations and Total_Item_Requests"
 
 #: ../../en/doc.rst:336
 msgid ""
@@ -468,10 +482,15 @@ msgid ""
 "cette ressource est comptabilisé dans *Total_Item_**. Les doubles clics "
 "éventuels ne sont pas comptabilisés."
 msgstr ""
+"The *Total_Item_Investigations* and *Total_Item_Requests* metrics count all "
+"accesses to a resource. When a user is accessing a resource (an article, a "
+"book or a chapter of a book...) several times during a :ref:`user session "
+"<user-session>`, each access to this resource is counted in *Total_Item_**. "
+"Eventual double clicks are ignored."
 
 #: ../../en/doc.rst:339
 msgid "Unique_Item_Investigations et Unique_Item_Requests"
-msgstr ""
+msgstr "Unique_Item_Investigations and Unique_Item_Requests"
 
 #: ../../en/doc.rst:341
 msgid ""
@@ -480,10 +499,13 @@ msgid ""
 "ayant fait l’objet d’une *Request* ou d'une *Investigation* pris en compte une "
 "seule fois par :ref:`session utilisateur <user-session>`."
 msgstr ""
+"The *Unique_Item_Investigations* and *Unique_Item_Requests* metrics count the "
+"number of content items (chapters, articles, etc.) accessed, considered only "
+"once by :ref:`user session <user-session>`."
 
 #: ../../en/doc.rst:344
 msgid "Unique_Title_Investigations et Unique_Title_Requests"
-msgstr ""
+msgstr "Unique_Title_Investigations et Unique_Title_Requests"
 
 #: ../../en/doc.rst:346
 msgid ""
@@ -494,30 +516,39 @@ msgid ""
 "cours d'une session ne seront comptabilisés qu'une fois dans la mesure "
 "*Unique_Title_Requests*."
 msgstr ""
+"The metrics *Unique_Title_Investigations* and *Unique_Title_Requests* are only "
+"applicable for books. They measure the number of unique accesses to a book "
+"during a user session. Thus, a reader's accesses to 3 chapters of a full-text "
+"book during a :ref:`user session <user-session>` will only be counted once in "
+"the *Unique_Title_Requests* metric."
 
 #: ../../en/doc.rst:351
 msgid "Session utilisateur"
-msgstr ""
+msgstr "User session"
 
 #: ../../en/doc.rst:353
 msgid ""
 "Utilisée dans le calcul des mesures *Unique_**, la session d'un utilisateur "
 "est définie par 3 critères |_| :"
 msgstr ""
+"Used in the Unique_* measurements computation, a user session is defined by 3 "
+"criteria:"
 
 #: ../../en/doc.rst:355
 msgid "l'adresse IP de l'utilisateur ;"
-msgstr ""
+msgstr "the user IP address;"
 
 #: ../../en/doc.rst:356
 msgid "le *user-agent* de l'utilisateur ;"
-msgstr ""
+msgstr "the user-agent;"
 
 #: ../../en/doc.rst:357
 msgid ""
 "la date + l'heure de la consultation (comprise entre 0 et 23 ; on ne considère "
 "pas les minutes et secondes)"
 msgstr ""
+"the date + the time of the visit (between 0 and 23; minutes and seconds are "
+"not considered)"
 
 #: ../../en/doc.rst:359
 msgid ""
@@ -527,81 +558,100 @@ msgid ""
 "projectcounter.org/code-of-practice-five-sections/7-processing-rules-"
 "underlying-counter-reporting-data/#counting>`_."
 msgstr ""
+"This is a session approximation. Indeed, OpenEdition does not record the user "
+"sessions of the readers. This method is valid according to the Counter 5 Code "
+"of Practice: `7.3 Counting Unique Items <https://www.projectcounter.org/code-"
+"of-practice-five-sections/7-processing-rules-underlying-counter-reporting-data/"
+"#counting>`_."
 
 #: ../../en/doc.rst:365
 msgid ""
 "Comptabilise les accès refusés à une ressource en accès reservé. Sur "
 "OpenEdition, il peut s'agir |_| :"
 msgstr ""
+"Records access denied to a resource in restricted access. On OpenEdition, this "
+"can be:"
 
 #: ../../en/doc.rst:367
 msgid "d'articles de revues sous barrière mobile |_| ;"
-msgstr ""
+msgstr "journal articles under embargo;"
 
 #: ../../en/doc.rst:368
 msgid ""
 "d'articles ou de numéros de revues au format PDF ou ePub pour les revues du "
 "bouquet Open Access Freemium, pour les institutions non abonnées |_| ;"
 msgstr ""
+"articles or journal issues in PDF or ePub format for journals of the Open "
+"Access Freemium bundle, for non-subscribing institutions;"
 
 #: ../../en/doc.rst:369
 msgid ""
 "de livres ou de chapitre de livres en accès exclusifs, non acquis par "
 "l'institution |_| ;"
 msgstr ""
+"books or chapters of books in restricted access, not acquired by the "
+"institution;"
 
 #: ../../en/doc.rst:370
 msgid ""
 "de livres ou de chapitre de livres au format PDF ou ePub en accès exclusifs ou "
 "Open Access Freemium, non acquis par l'institution."
 msgstr ""
+"books or book chapters in PDF or ePub format in restricted access or Open "
+"Access Freemium, not acquired by the institution."
 
 #: ../../en/doc.rst:376
 msgid ""
 "OpenEdition ne limite pas le nombre d'accès simultanés à une ressource. Le "
 "Metric_Type *Limit_Exceeded* ne renvoie donc aucun résultat."
 msgstr ""
+"OpenEdition does not limit the number of simultaneous connections to a "
+"resource. Thus, the Metric_Type *Limit_Exceeded does not return any results."
 
 #: ../../en/doc.rst:381
 msgid ""
 "Recherches effectuées par les utilisateurs et disponible au niveau Platform "
 "uniquement."
-msgstr ""
+msgstr "User searches available at the Platform level only."
 
 #: ../../en/doc.rst:383
 msgid "Sur OpenEdition, cela correspond aux recherches effectuées |_| :"
-msgstr ""
+msgstr "On OpenEdition, this matches the searches done :"
 
 #: ../../en/doc.rst:385
 msgid "sur OpenEdition Search (https://search.openedition.org) |_| ;"
-msgstr ""
+msgstr "on OpenEdition Search (https://search.openedition.org);"
 
 #: ../../en/doc.rst:386
 msgid ""
 "dans le catalogue des revues (https://www.openedition.org/catalogue-journals) |"
 "_| ;"
-msgstr ""
+msgstr "in the journal catalog (https://www.openedition.org/catalogue-journals);"
 
 #: ../../en/doc.rst:387
 msgid ""
 "dans le catalogue des livres (https://books.openedition.org/catalogue) |_| ;"
-msgstr ""
+msgstr "in the book catalog (https://books.openedition.org/catalogue);"
 
 #: ../../en/doc.rst:388
 msgid ""
 "dans un livre particulier (ex. https://books.openedition.org/oep/8713?"
 "query=archive)."
 msgstr ""
+"in a particular book (e.g. https://books.openedition.org/oep/8713?"
+"query=archive)."
 
 #: ../../en/doc.rst:393
 msgid ""
 "La documentation de l'API Sushi est disponible à cette adresse |_| : https://"
 "counter5.openedition.org/api/doc."
 msgstr ""
+"The Sushi API documentation is available at this address: https://counter5."
+"openedition.org/api/doc."
 
 #: ../../en/doc.rst:397
 msgid "Counter 5 et contenus Freemium"
-msgstr ""
+msgstr "Counter 5 and OpenEdition Freemium"
 
 #: ../../en/doc.rst:399
 msgid ""
@@ -610,18 +660,23 @@ msgid ""
 "De ce fait, et suivant les recommandations du *Technical Advisory Group "
 "Counter* |_| :"
 msgstr ""
+"Journals and books published in *Open Access Freemium* are available in open "
+"access in HTML format and in restricted access for PDF and ePub formats. As a "
+"result, and following the recommendations of the *Technical Advisory Group "
+"Counter*:"
 
 #: ../../en/doc.rst:401
 msgid ""
 "Les requêtes sur le contenu HTML sont comptabilisées avec un "
 "Access_Type='OA_Gold'."
-msgstr ""
+msgstr "Requests on HTML content are counted with an Access_Type='OA_Gold'."
 
 #: ../../en/doc.rst:402
 msgid ""
 "Les requêtes sur le contenu PDF et ePub sont comptabilisées avec un "
 "Access_type='Controlled'."
 msgstr ""
+"Requests on PDF and ePub content are counted with an Access_Type='Controlled'."
 
 #: ../../en/doc.rst:404
 msgid ""
@@ -630,23 +685,28 @@ msgid ""
 "consultations aux versions HTML) ET des consultations ayant pour *Access_Type* "
 "\"Controlled\" (les consultations aux versions PDF et ePub)."
 msgstr ""
+"A subscribing institution will therefore be able to observe in its Counter 5 "
+"reports, for the same journal, requests having for *Access*_Type \"OA_Gold"
+"\" (requests for HTML versions) AND requests having for *Access_Type* "
+"\"Controlled\" (requests for PDF and ePub versions)."
 
 #: ../../en/doc.rst:408
 msgid "Date de disponibilité des rapports et temps de reponse"
-msgstr ""
+msgstr "Date of report availability and response time"
 
 #: ../../en/doc.rst:411
 msgid "Dates et durée de disponibilité des rapports"
-msgstr ""
+msgstr "Dates and availability of reports"
 
 #: ../../en/doc.rst:413
 msgid "Les rapports sont disponibles à compter du mois de juillet 2020."
-msgstr ""
+msgstr "The Reports are available as of July 2020."
 
 #: ../../en/doc.rst:414
 msgid ""
 "Les rapports pour un mois donné sont disponibles à partir du 5 du mois suivant."
 msgstr ""
+"Reports for a given month are available from the 5th of the following month."
 
 #: ../../en/doc.rst:415
 msgid ""
@@ -656,16 +716,22 @@ msgid ""
 "période de disponibilité écoulée. Les données devront donc avoir été "
 "moissonnées préalablement."
 msgstr ""
+"Reports are available for 2 years plus the current year. Thus, reports for "
+"January 2021 and February 2021 will be available until 12/31/2023. It will not "
+"be possible to get the reports once the availability period has expired. "
+"Therefore, the data will have to be harvested beforehand."
 
 #: ../../en/doc.rst:418
 msgid "Temps de réponse et mise en cache"
-msgstr ""
+msgstr "Response time and caching"
 
 #: ../../en/doc.rst:420
 msgid ""
 "Ce service traite d'importants volumes de données et peut de ce fait "
 "nécessiter des temps de calcul non négligeables."
 msgstr ""
+"This service handles large volumes of data and can require significant "
+"computing time."
 
 #: ../../en/doc.rst:422
 msgid ""
@@ -675,6 +741,11 @@ msgid ""
 "plan et lorsque vous ré-exécuterez la demande après quelques minutes, "
 "l'application disposera du rapport pré-calculé et pourra vous le renvoyer."
 msgstr ""
+"If the computing time of a report exceeds the limit defined by Counter 5 (120 "
+"sec.), the application will send a warning inviting you to reexecute your "
+"request. In this case, the calculation of the report continues in background "
+"and when you re-execute the request after a few minutes, the application will "
+"have the pre-calculated report and will be able to return it to you."
 
 #: ../../en/doc.rst:424
 msgid ""
@@ -682,6 +753,9 @@ msgid ""
 "définie par Counter 5 |_| : https://www.projectcounter.org/appendix-f-handling-"
 "errors-exceptions/"
 msgstr ""
+"This behavior also applies to Sushi which will return the exception 1011 "
+"defined by Counter 5: https://www.projectcounter.org/appendix-f-handling-"
+"errors-exceptions/."
 
 #: ../../en/doc.rst:426
 msgid ""
@@ -690,6 +764,9 @@ msgid ""
 "l'utilisation de plage temporelles de plusieurs mois, les rapports pour les "
 "consortia."
 msgstr ""
+"The computing time depends on the complexity and size of the requested report, "
+"in particular the simultaneous use of several attributes, the use of time "
+"ranges of several months, reports for consortia."
 
 #: ../../en/doc.rst:428
 msgid ""
@@ -698,13 +775,19 @@ msgid ""
 "reponse est de ce fait beaucoup amélioré pour les mois récents. Pour les "
 "rapports plus anciens, il faut faire preuve de patience."
 msgstr ""
+"To facilitate the use of the application, the reports of the last months "
+"(about 4 last months) are pre-cached (in cache memory). The response time is "
+"therefore significantly improved for recent months. For older reports, "
+"patience is required."
 
 #: ../../en/doc.rst:431
 msgid "Certification"
-msgstr ""
+msgstr "Certification"
 
 #: ../../en/doc.rst:433
 msgid ""
 "Le premier audit de certification des statistiques Counter 5 est en cours "
 "(janvier 2021)."
 msgstr ""
+"The first certification audit of Counter 5 statistics is in progress (January "
+"2021)."
