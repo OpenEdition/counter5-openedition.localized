@@ -8,17 +8,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenEdition Counter 5 Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2021-01-12 22:11+0100\n"
-"PO-Revision-Date: 2021-01-12 22:12+0100\n"
+"POT-Creation-Date: 2021-01-15 14:30+0100\n"
+"PO-Revision-Date: 2021-01-15 14:35+0100\n"
 "Last-Translator: \n"
 "Language: en_US\n"
 "Language-Team: \n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=utf-8\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.6.0\n"
-"X-Generator: Poedit 2.3\n"
+"Generated-By: Babel 2.7.0\n"
+"X-Generator: Poedit 2.2.1\n"
+
+#: ../../en/index.rst:25
+msgid "Documentation Counter 5"
+msgstr "Counter 5 Documentation"
+
+#: ../../en/index.rst:32
+msgid "À propos"
+msgstr "About"
 
 #: ../../en/index.rst:3
 msgid "Documentation du service Counter 5 d'OpenEdition"
@@ -74,7 +82,7 @@ msgstr ""
 
 #: ../../en/index.rst:16
 msgid ""
-"Elle a été traduite en français dans sa version 5.0.1 par l’Inist-CNRS "
+"Ce code a été traduit en français dans sa version 5.0.1 par l’INIST-CNRS "
 "et le consortium Couperin.org |_| : https://www.projectcounter.org/"
 "telecharger-ici-le-code-de-bonnes-pratiques-counter_v5_fr_5-0-1-en-"
 "version-pdf/"
@@ -101,14 +109,6 @@ msgid ""
 msgstr ""
 "in json format accessible via Sushi protocol at the following address: "
 "https://counter5.openedition.org/api."
-
-#: ../../en/index.rst:25
-msgid "Documentation Counter 5"
-msgstr "Counter 5 Documentation"
-
-#: ../../en/index.rst:32
-msgid "À propos"
-msgstr "About"
 
 #~ msgid ""
 #~ "*This documentation is available in French end English. Expand the "
