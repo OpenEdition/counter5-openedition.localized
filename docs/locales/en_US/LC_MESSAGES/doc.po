@@ -8,16 +8,17 @@ msgid ""
 msgstr ""
 "Project-Id-Version: OpenEdition Counter 5 Documentation\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-07-09 22:01+0200\n"
-"PO-Revision-Date: 2021-01-15 14:38+0100\n"
+"POT-Creation-Date: 2026-02-13 16:06+0100\n"
+"PO-Revision-Date: 2026-02-13 17:45+0100\n"
 "Last-Translator: \n"
-"Language: en_US\n"
 "Language-Team: \n"
-"Plural-Forms: nplurals=2; plural=(n != 1)\n"
+"Language: en_US\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=utf-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Generated-By: Babel 2.8.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Generated-By: Babel 2.14.0\n"
+"X-Generator: Poedit 3.4.2\n"
 
 #: ../../en/doc.rst:2
 msgid "Accès au service / Identifiants"
@@ -37,11 +38,11 @@ msgstr "Institution Credentials:"
 
 #: ../../en/doc.rst:10
 msgid ""
-"Nom d'utilisateur et mot de passe identiques à vos identifiants de "
-"l'espace Freemium |_| : https://freemium.openedition.org/library"
+"Nom d'utilisateur et mot de passe identiques à vos identifiants de l'espace "
+"Freemium |_| : https://freemium.openedition.org/library"
 msgstr ""
-"Username and password are identical to your Library Backoffice "
-"credentials: https://freemium.openedition.org/library"
+"Username and password are identical to your Library Backoffice credentials: "
+"https://freemium.openedition.org/library"
 
 #: ../../en/doc.rst:12 ../../en/doc.rst:31
 msgid "Identifiants Consortium :"
@@ -55,7 +56,7 @@ msgstr ""
 "Ask for your credentials by email at the following address: assistance-"
 "abonnes@openedition.org"
 
-#: ../../en/doc.rst:17 ../../en/doc.rst:391
+#: ../../en/doc.rst:17 ../../en/doc.rst:417
 msgid "API Sushi"
 msgstr "Sushi API"
 
@@ -69,21 +70,19 @@ msgstr "Documentation URL: https://counter5.openedition.org/api/doc"
 
 #: ../../en/doc.rst:23
 msgid ""
-"Nom d'utilisateur (``requestor_id``) : identique à votre nom "
-"d'utilisateur de l'espace Freemium |_| : "
-"https://freemium.openedition.org/library"
+"Nom d'utilisateur (``requestor_id``) : identique à votre nom d'utilisateur de "
+"l'espace Freemium |_| : https://freemium.openedition.org/library"
 msgstr ""
-"``requestor_id``: identical to your Library Backoffice Username: "
-"https://freemium.openedition.org/library"
+"``requestor_id``: identical to your Library Backoffice Username: https://"
+"freemium.openedition.org/library"
 
 #: ../../en/doc.rst:24
 msgid ""
-"Clé d'authentification (``api_key``) : vous pouvez obtenir et régénerer "
-"votre clé dans l'`espace Freemium "
-"<https://freemium.openedition.org/library>`_ |_| :"
+"Clé d'authentification (``api_key``) : vous pouvez obtenir et régénerer votre "
+"clé dans l'`espace Freemium <https://freemium.openedition.org/library>`_ |_| :"
 msgstr ""
-"``api_key``: you can retrieve and regenerate your API Key in your "
-"`Library backoffice <https://freemium.openedition.org/library>`_:"
+"``api_key``: you can retrieve and regenerate your API Key in your `Library "
+"backoffice <https://freemium.openedition.org/library>`_:"
 
 #: ../../en/doc.rst:26
 msgid "*Menu API* > *Clé d'authentification*."
@@ -94,502 +93,566 @@ msgid ""
 "Si elle n'est pas générée ou si vous souhaitez la modifier, cliquez sur "
 "`Générer une nouvelle clé`."
 msgstr ""
-"If it is not generated or if you want to modify it, click on `Generate a "
-"new key`."
+"If it is not generated or if you want to modify it, click on `Generate a new "
+"key`."
 
 #: ../../en/doc.rst:29
 msgid "``customer_id`` : identique au ``requestor_id``."
 msgstr "``customer_id`` : identical to ``requestor_id``."
 
+#: ../../en/doc.rst:36
+msgid "Routes API"
+msgstr "API Routes"
+
 #: ../../en/doc.rst:38
+msgid ""
+"les rapports disponibles au format Counter 5.0 jusqu'à 2024 sont listées ici : "
+"https://counter5.openedition.org/api/reports"
+msgstr ""
+"Reports available in Counter 5.0 format until 2024 are listed here: https://"
+"counter5.openedition.org/api/reports"
+
+#: ../../en/doc.rst:39
+msgid ""
+"les rapports disponibles au format Counter 5.1 à partir de 2025 sont listées "
+"ici: https://counter5.openedition.org/api/r51/reports"
+msgstr ""
+"Reports available in Counter 5.1 format from 2025 onwards are listed here: "
+"https://counter5.openedition.org/api/r51/reports"
+
+#: ../../en/doc.rst:43
 msgid "Rapports disponibles"
 msgstr "Available Reports"
 
-#: ../../en/doc.rst:40
-msgid ""
-"Les différents rapports disponibles sont présentés ci-dessous. Chaque "
-"rapport est proposé sous la forme d'un *Master Report*, paramétrable, et "
-"de *Standard Views* pour lesquelles les Metric Types, les filtres et les "
-"attributs sont présélectionnés."
-msgstr ""
-"Available reports are presented below. Each Report is provided in the "
-"form of a *Master Report*, customizable with parameters, and *Standard "
-"Views* where Metric Types, filters and attributes are preselected."
-
-#: ../../en/doc.rst:42
-msgid ""
-"Les *Metric Types* sont les différentes mesures d'usage définies par "
-"Counter. Vous trouverez plus bas une description de chacune."
-msgstr ""
-"The *Metric Types* are usage metrics defined by Counter. You will find "
-"below a description of each."
-
-#: ../../en/doc.rst:44
-msgid ""
-"L'utilisation d'un *filtre* dans un Master Report permet de limiter le "
-"contenu du rapport à un critère particulier. Par exemple le choix d'un "
-"filtre ``YOP=2020`` (*Year Of Publication*) limitera le rapport aux "
-"contenus publiés en 2020."
-msgstr ""
-"Using a *filter* in a Master Report limits the content of the report to a"
-" particular criterion. For example the choice of a filter ``YOP=2020`` "
-"(*Year Of Publication*) will limit the report to content published in "
-"2020."
-
 #: ../../en/doc.rst:46
 msgid ""
-"L'utilisation d'un *Attribut* dans un Master Report permet de distribuer "
-"chaque métrique selon cet attribut. Par exemple le choix d'un attribut "
-"``YOP`` (`Year Of Publication`) pour un rapport TR renverra les métriques"
-" pour chaque type par année de publication."
+"Les statistiques sont disponibles au format Counter 5.0 jusqu'à 2024 et au "
+"format Counter 5.1 à partir de 2025."
 msgstr ""
-"Using an *attribute* in a Master Report distribute each metric according "
-"to this attribute. For example, choosing a YOP (``Year Of Publication``) "
-"attribute for a TR report will return the metrics for each type broken "
-"down by year of publication."
+"Statistics are available in Counter 5.0 format until 2024 and in Counter 5.1 "
+"format from 2025 onwards."
+
+#: ../../en/doc.rst:48
+msgid ""
+"Les différents rapports disponibles sont présentés ci-dessous. Chaque rapport "
+"est proposé sous la forme d'un *Master Report*, paramétrable, et de *Standard "
+"Views* pour lesquelles les Metric Types, les filtres et les attributs sont "
+"présélectionnés."
+msgstr ""
+"Available reports are presented below. Each Report is provided in the form of a "
+"*Master Report*, customizable with parameters, and *Standard Views* where "
+"Metric Types, filters and attributes are preselected."
 
 #: ../../en/doc.rst:50
+msgid ""
+"Les *Metric Types* sont les différentes mesures d'usage définies par Counter. "
+"Vous trouverez plus bas une description de chacune."
+msgstr ""
+"The *Metric Types* are usage metrics defined by Counter. You will find below a "
+"description of each."
+
+#: ../../en/doc.rst:52
+msgid ""
+"L'utilisation d'un *filtre* dans un Master Report permet de limiter le contenu "
+"du rapport à un critère particulier. Par exemple le choix d'un filtre "
+"``YOP=2020`` (*Year Of Publication*) limitera le rapport aux contenus publiés "
+"en 2020."
+msgstr ""
+"Using a *filter* in a Master Report limits the content of the report to a "
+"particular criterion. For example the choice of a filter ``YOP=2020`` (*Year Of "
+"Publication*) will limit the report to content published in 2020."
+
+#: ../../en/doc.rst:54
+msgid ""
+"L'utilisation d'un *Attribut* dans un Master Report permet de distribuer chaque "
+"métrique selon cet attribut. Par exemple le choix d'un attribut ``YOP`` (`Year "
+"Of Publication`) pour un rapport TR renverra les métriques pour chaque type par "
+"année de publication."
+msgstr ""
+"Using an *attribute* in a Master Report distribute each metric according to "
+"this attribute. For example, choosing a YOP (``Year Of Publication``) attribute "
+"for a TR report will return the metrics for each type broken down by year of "
+"publication."
+
+#: ../../en/doc.rst:58
 msgid "Platform Reports"
 msgstr ""
 
-#: ../../en/doc.rst:53
+#: ../../en/doc.rst:61
 msgid "PR | Platform Master Report"
 msgstr ""
 
-#: ../../en/doc.rst:55
+#: ../../en/doc.rst:63
 msgid ""
-"Rapport personnalisable résumant l'activité sur l'ensemble de la "
-"plateforme. Il est paramétrable (filtres et attributs)."
+"Rapport personnalisable résumant l'activité sur l'ensemble de la plateforme. Il "
+"est paramétrable (filtres et attributs)."
 msgstr ""
 "A customizable report summarizing activity across a content provider’s "
 "platforms that allows the user to apply filters and attributes."
 
-#: ../../en/doc.rst:57 ../../en/doc.rst:86 ../../en/doc.rst:112
-#: ../../en/doc.rst:150 ../../en/doc.rst:174 ../../en/doc.rst:197
-#: ../../en/doc.rst:226 ../../en/doc.rst:250 ../../en/doc.rst:274
-#: ../../en/doc.rst:300
+#: ../../en/doc.rst:65 ../../en/doc.rst:94 ../../en/doc.rst:120
+#: ../../en/doc.rst:158 ../../en/doc.rst:182 ../../en/doc.rst:205
+#: ../../en/doc.rst:234 ../../en/doc.rst:258 ../../en/doc.rst:282
+#: ../../en/doc.rst:308
 msgid "**Type** :"
 msgstr ""
 
-#: ../../en/doc.rst:59 ../../en/doc.rst:114
+#: ../../en/doc.rst:67 ../../en/doc.rst:122
 msgid "Master Report"
 msgstr ""
 
-#: ../../en/doc.rst:61 ../../en/doc.rst:116
+#: ../../en/doc.rst:69 ../../en/doc.rst:124
 msgid "**Metric Types disponibles** :"
 msgstr "**Available Metric Types** :"
 
-#: ../../en/doc.rst:63 ../../en/doc.rst:118 ../../en/doc.rst:203
-#: ../../en/doc.rst:280
+#: ../../en/doc.rst:71 ../../en/doc.rst:126 ../../en/doc.rst:211
+#: ../../en/doc.rst:288
 msgid "Total_Item_Investigations"
 msgstr ""
 
-#: ../../en/doc.rst:64 ../../en/doc.rst:92 ../../en/doc.rst:119
-#: ../../en/doc.rst:156 ../../en/doc.rst:204 ../../en/doc.rst:232
-#: ../../en/doc.rst:281 ../../en/doc.rst:306
+#: ../../en/doc.rst:72 ../../en/doc.rst:100 ../../en/doc.rst:127
+#: ../../en/doc.rst:164 ../../en/doc.rst:212 ../../en/doc.rst:240
+#: ../../en/doc.rst:289 ../../en/doc.rst:314 ../../en/doc.rst:366
 msgid "Total_Item_Requests"
 msgstr ""
 
-#: ../../en/doc.rst:65 ../../en/doc.rst:120 ../../en/doc.rst:205
-#: ../../en/doc.rst:282
+#: ../../en/doc.rst:73 ../../en/doc.rst:128 ../../en/doc.rst:213
+#: ../../en/doc.rst:290
 msgid "Unique_Item_Investigations"
 msgstr ""
 
-#: ../../en/doc.rst:66 ../../en/doc.rst:93 ../../en/doc.rst:121
-#: ../../en/doc.rst:206 ../../en/doc.rst:233 ../../en/doc.rst:283
-#: ../../en/doc.rst:307
+#: ../../en/doc.rst:74 ../../en/doc.rst:101 ../../en/doc.rst:129
+#: ../../en/doc.rst:214 ../../en/doc.rst:241 ../../en/doc.rst:291
+#: ../../en/doc.rst:315 ../../en/doc.rst:368
 msgid "Unique_Item_Requests"
 msgstr ""
 
-#: ../../en/doc.rst:67 ../../en/doc.rst:122 ../../en/doc.rst:207
+#: ../../en/doc.rst:75 ../../en/doc.rst:130 ../../en/doc.rst:215
 msgid "Unique_Title_Investigations"
 msgstr ""
 
-#: ../../en/doc.rst:68 ../../en/doc.rst:94 ../../en/doc.rst:123
-#: ../../en/doc.rst:157 ../../en/doc.rst:208
+#: ../../en/doc.rst:76 ../../en/doc.rst:102 ../../en/doc.rst:131
+#: ../../en/doc.rst:165 ../../en/doc.rst:216
 msgid "Unique_Title_Requests"
 msgstr ""
 
-#: ../../en/doc.rst:69 ../../en/doc.rst:379
+#: ../../en/doc.rst:77 ../../en/doc.rst:405
 msgid "Searches_Platform"
 msgstr ""
 
-#: ../../en/doc.rst:71 ../../en/doc.rst:127
+#: ../../en/doc.rst:79 ../../en/doc.rst:135
 msgid "**Filtres disponibles** :"
 msgstr "**Available Filters** :"
 
-#: ../../en/doc.rst:73 ../../en/doc.rst:78 ../../en/doc.rst:129
-#: ../../en/doc.rst:137
+#: ../../en/doc.rst:81 ../../en/doc.rst:137 ../../en/doc.rst:145
 msgid "Data_Type"
 msgstr ""
 
-#: ../../en/doc.rst:74 ../../en/doc.rst:79 ../../en/doc.rst:133
-#: ../../en/doc.rst:141
+#: ../../en/doc.rst:82 ../../en/doc.rst:87 ../../en/doc.rst:141
+#: ../../en/doc.rst:149
 msgid "Access_Method"
 msgstr ""
 
-#: ../../en/doc.rst:76 ../../en/doc.rst:135
+#: ../../en/doc.rst:84 ../../en/doc.rst:143
 msgid "**Attributs disponibles** :"
 msgstr "**Available Attributes** :"
 
-#: ../../en/doc.rst:82
+#: ../../en/doc.rst:86
+msgid "Data_Type (5.0 seulement. Au format 5.1, il est systématiquement appliqué)"
+msgstr "Data_Type (5.0 only. In format 5.1, it is systematically applied)"
+
+#: ../../en/doc.rst:90
 msgid "PR_P1 | Platform Usage"
 msgstr ""
 
-#: ../../en/doc.rst:84
+#: ../../en/doc.rst:92
 msgid "Rapport d'usage de la plateforme OpenEdition distribué par *Metric Type*."
 msgstr "Platform-level usage summarized by *Metric Type*."
 
-#: ../../en/doc.rst:88 ../../en/doc.rst:152 ../../en/doc.rst:176
-#: ../../en/doc.rst:199 ../../en/doc.rst:228 ../../en/doc.rst:252
-#: ../../en/doc.rst:276 ../../en/doc.rst:302
+#: ../../en/doc.rst:96 ../../en/doc.rst:160 ../../en/doc.rst:184
+#: ../../en/doc.rst:207 ../../en/doc.rst:236 ../../en/doc.rst:260
+#: ../../en/doc.rst:284 ../../en/doc.rst:310
 msgid "Standard View"
 msgstr ""
 
-#: ../../en/doc.rst:90 ../../en/doc.rst:154 ../../en/doc.rst:178
-#: ../../en/doc.rst:201 ../../en/doc.rst:230 ../../en/doc.rst:254
-#: ../../en/doc.rst:278 ../../en/doc.rst:304
+#: ../../en/doc.rst:98 ../../en/doc.rst:162 ../../en/doc.rst:186
+#: ../../en/doc.rst:209 ../../en/doc.rst:238 ../../en/doc.rst:262
+#: ../../en/doc.rst:286 ../../en/doc.rst:312
 msgid "**Metric Types présélectionnés** :"
 msgstr "**Preselected Metric Types** :"
 
-#: ../../en/doc.rst:96 ../../en/doc.rst:159 ../../en/doc.rst:183
-#: ../../en/doc.rst:210 ../../en/doc.rst:235 ../../en/doc.rst:259
-#: ../../en/doc.rst:285 ../../en/doc.rst:309
+#: ../../en/doc.rst:104 ../../en/doc.rst:167 ../../en/doc.rst:191
+#: ../../en/doc.rst:218 ../../en/doc.rst:243 ../../en/doc.rst:267
+#: ../../en/doc.rst:293 ../../en/doc.rst:317
 msgid "**Filtres présélectionnés** :"
 msgstr "**Preselected Filters** :"
 
-#: ../../en/doc.rst:98 ../../en/doc.rst:163 ../../en/doc.rst:186
-#: ../../en/doc.rst:213 ../../en/doc.rst:239 ../../en/doc.rst:262
-#: ../../en/doc.rst:288 ../../en/doc.rst:313
+#: ../../en/doc.rst:106 ../../en/doc.rst:171 ../../en/doc.rst:194
+#: ../../en/doc.rst:221 ../../en/doc.rst:247 ../../en/doc.rst:270
+#: ../../en/doc.rst:296 ../../en/doc.rst:321
 msgid "Access_Method=Regular"
 msgstr ""
 
-#: ../../en/doc.rst:100 ../../en/doc.rst:165 ../../en/doc.rst:188
-#: ../../en/doc.rst:215 ../../en/doc.rst:241 ../../en/doc.rst:264
-#: ../../en/doc.rst:290 ../../en/doc.rst:315
+#: ../../en/doc.rst:108 ../../en/doc.rst:173 ../../en/doc.rst:196
+#: ../../en/doc.rst:223 ../../en/doc.rst:249 ../../en/doc.rst:272
+#: ../../en/doc.rst:298 ../../en/doc.rst:323
 msgid "**Attributs présélectionnés** :"
 msgstr "**Preselected Attributes** :"
 
-#: ../../en/doc.rst:102 ../../en/doc.rst:243 ../../en/doc.rst:266
+#: ../../en/doc.rst:110 ../../en/doc.rst:251 ../../en/doc.rst:274
 msgid "aucun"
 msgstr "none"
 
-#: ../../en/doc.rst:105
+#: ../../en/doc.rst:113
 msgid "Title Reports"
 msgstr ""
 
-#: ../../en/doc.rst:108
+#: ../../en/doc.rst:116
 msgid "TR | Title Master Report"
 msgstr ""
 
-#: ../../en/doc.rst:110
+#: ../../en/doc.rst:118
 msgid ""
-"Rapport personnalisable détaillant l'activité pour chaque titre, "
-"c'est-à-dire pour chaque livre et chaque revue. Il est paramétrable "
-"(filtres et attributs)."
+"Rapport personnalisable détaillant l'activité pour chaque titre, c'est-à-dire "
+"pour chaque livre et chaque revue. Il est paramétrable (filtres et attributs)."
 msgstr ""
-"Customizable report detailing activity at the title level (journal, book)"
-" that allows the user to apply filters and attributes."
+"Customizable report detailing activity at the title level (journal, book) that "
+"allows the user to apply filters and attributes."
 
-#: ../../en/doc.rst:124 ../../en/doc.rst:180 ../../en/doc.rst:256
-#: ../../en/doc.rst:363
+#: ../../en/doc.rst:132 ../../en/doc.rst:188 ../../en/doc.rst:264
+#: ../../en/doc.rst:389
 msgid "No_License"
 msgstr ""
 
-#: ../../en/doc.rst:125 ../../en/doc.rst:181 ../../en/doc.rst:257
-#: ../../en/doc.rst:374
+#: ../../en/doc.rst:133 ../../en/doc.rst:189 ../../en/doc.rst:265
+#: ../../en/doc.rst:400
 msgid "Limit_Exceeded"
 msgstr ""
 
-#: ../../en/doc.rst:130 ../../en/doc.rst:138
-msgid "Section_Type"
-msgstr ""
+#: ../../en/doc.rst:138 ../../en/doc.rst:146
+msgid "Section_Type (Counter 5.0 seulement)"
+msgstr "Section_Type (Counter 5.0 only)"
 
-#: ../../en/doc.rst:131 ../../en/doc.rst:139 ../../en/doc.rst:167
-#: ../../en/doc.rst:190 ../../en/doc.rst:217 ../../en/doc.rst:317
+#: ../../en/doc.rst:139 ../../en/doc.rst:147 ../../en/doc.rst:175
+#: ../../en/doc.rst:198 ../../en/doc.rst:225 ../../en/doc.rst:325
 msgid "YOP"
 msgstr ""
 
-#: ../../en/doc.rst:132 ../../en/doc.rst:140 ../../en/doc.rst:218
-#: ../../en/doc.rst:292
+#: ../../en/doc.rst:140 ../../en/doc.rst:148 ../../en/doc.rst:226
+#: ../../en/doc.rst:300
 msgid "Access_Type"
 msgstr ""
 
-#: ../../en/doc.rst:146
+#: ../../en/doc.rst:154
 msgid "TR_B1 | Book Requests (Excluding OA_Gold)"
 msgstr ""
 
-#: ../../en/doc.rst:148
+#: ../../en/doc.rst:156
 msgid ""
-"Rapports sur l'activité en texte intégral pour les livres, hors contenus "
-"en Open Access."
+"Rapports sur l'activité en texte intégral pour les livres, hors contenus en "
+"Open Access."
 msgstr ""
-"Reports on full-text activity for books, excluding Gold Open Access "
-"content, as Total_Item_Requests and Unique_Title_Requests."
+"Reports on full-text activity for books, excluding Gold Open Access content, as "
+"Total_Item_Requests and Unique_Title_Requests."
 
-#: ../../en/doc.rst:161 ../../en/doc.rst:185 ../../en/doc.rst:212
+#: ../../en/doc.rst:169 ../../en/doc.rst:193 ../../en/doc.rst:220
 msgid "Data_Type=Book"
 msgstr ""
 
-#: ../../en/doc.rst:162 ../../en/doc.rst:238 ../../en/doc.rst:312
+#: ../../en/doc.rst:170 ../../en/doc.rst:246 ../../en/doc.rst:320
 msgid "Access_Type=Controlled"
 msgstr ""
 
-#: ../../en/doc.rst:170
+#: ../../en/doc.rst:178
 msgid "TR_B2 | Book Access Denied"
 msgstr ""
 
-#: ../../en/doc.rst:172
+#: ../../en/doc.rst:180
 msgid ""
-"Rapport comptabilisant les accès refusés aux livres en accès restreint "
-"non acquis par l'institution. OpenEdition ne limite pas le nombre d'accès"
-" simultanés à une ressource. Le Metric_Type Limit_Exceeded ne renvoie "
-"donc aucun résultat."
+"Rapport comptabilisant les accès refusés aux livres en accès restreint non "
+"acquis par l'institution. OpenEdition ne limite pas le nombre d'accès "
+"simultanés à une ressource. Le Metric_Type Limit_Exceeded ne renvoie donc aucun "
+"résultat."
 msgstr ""
-"Reports on Access Denied activity for books where users were denied "
-"access because their institution did not have a license for the book. "
-"OpenEdition does not limit the number of simultaneous accesses to a "
-"resource. The Metric_Type Limit_Exceeded does not return any results."
+"Reports on Access Denied activity for books where users were denied access "
+"because their institution did not have a license for the book. OpenEdition does "
+"not limit the number of simultaneous accesses to a resource. The Metric_Type "
+"Limit_Exceeded does not return any results."
 
-#: ../../en/doc.rst:193
+#: ../../en/doc.rst:201
 msgid "TR_B3 | Book Usage by Access Type"
 msgstr ""
 
-#: ../../en/doc.rst:195
+#: ../../en/doc.rst:203
 msgid ""
-"Rapport portant sur l'utilisation des livres indiquant tous les "
-"Metric_Types applicables, distribués par Access_Type (Controlled ou "
-"OA_Gold)."
+"Rapport portant sur l'utilisation des livres indiquant tous les Metric_Types "
+"applicables, distribués par Access_Type (Controlled ou OA_Gold)."
 msgstr ""
 "Reports on book usage showing all applicable Metric_Types broken down by "
 "Access_Type."
 
-#: ../../en/doc.rst:222
+#: ../../en/doc.rst:230
 msgid "TR_J1 | Journal Requests (Excluding OA_Gold)"
 msgstr ""
 
-#: ../../en/doc.rst:224
+#: ../../en/doc.rst:232
 msgid ""
-"Rapports sur l'activité en texte intégral pour les revues, hors contenus "
-"en Open Access."
+"Rapports sur l'activité en texte intégral pour les revues, hors contenus en "
+"Open Access."
 msgstr ""
-"Reports on usage of journal content, excluding Gold Open Access content, "
-"as Total_Item_Requests and Unique_Item_Requests."
+"Reports on usage of journal content, excluding Gold Open Access content, as "
+"Total_Item_Requests and Unique_Item_Requests."
 
-#: ../../en/doc.rst:237 ../../en/doc.rst:261 ../../en/doc.rst:287
-#: ../../en/doc.rst:311
+#: ../../en/doc.rst:245 ../../en/doc.rst:269 ../../en/doc.rst:295
+#: ../../en/doc.rst:319
 msgid "Data_Type=Journal"
 msgstr ""
 
-#: ../../en/doc.rst:246
+#: ../../en/doc.rst:254
 msgid "TR_J2 | Journal Access Denied"
 msgstr ""
 
-#: ../../en/doc.rst:248
+#: ../../en/doc.rst:256
 msgid ""
-"Rapport comptabilisant les accès refusés aux revues en accès restreint "
-"non acquis par l'institution. OpenEdition ne limite pas le nombre d'accès"
-" simultanés à une ressource. Le Metric_Type Limit_Exceeded ne renvoie "
-"donc aucun résultat."
+"Rapport comptabilisant les accès refusés aux revues en accès restreint non "
+"acquis par l'institution. OpenEdition ne limite pas le nombre d'accès "
+"simultanés à une ressource. Le Metric_Type Limit_Exceeded ne renvoie donc aucun "
+"résultat."
 msgstr ""
-"Reports on Access Denied activity for journal content where users were "
-"denied access because their institution did not have a license for the "
-"title. OpenEdition does not limit the number of simultaneous accesses to "
-"a resource. The Metric_Type Limit_Exceeded does not return any results."
+"Reports on Access Denied activity for journal content where users were denied "
+"access because their institution did not have a license for the title. "
+"OpenEdition does not limit the number of simultaneous accesses to a resource. "
+"The Metric_Type Limit_Exceeded does not return any results."
 
-#: ../../en/doc.rst:270
+#: ../../en/doc.rst:278
 msgid "TR_J3 | Journal Usage by Access Type"
 msgstr ""
 
-#: ../../en/doc.rst:272
+#: ../../en/doc.rst:280
 msgid ""
-"Rapport portant sur l'utilisation des revues indiquant tous les "
-"Metric_Types applicables, distribués par Access_Type (Controlled ou "
-"OA_Gold)."
+"Rapport portant sur l'utilisation des revues indiquant tous les Metric_Types "
+"applicables, distribués par Access_Type (Controlled ou OA_Gold)."
 msgstr ""
 "Reports on usage of journal content for all Metric_Types broken down by "
 "Access_Type (Controlled or OA_Gold)."
 
-#: ../../en/doc.rst:296
+#: ../../en/doc.rst:304
 msgid "TR_J4 | Journal Requests by YOP (Excluding OA_Gold)"
 msgstr ""
 
-#: ../../en/doc.rst:298
+#: ../../en/doc.rst:306
 msgid ""
 "Rapport comptablisant les accès au texte intégral pour les revues, hors "
 "contenus en Open Access, distribué par année de publication."
 msgstr ""
-"Breaks down the usage of journal content, excluding Gold Open Access "
-"content, by year of publication (YOP), providing counts for the "
-"Metric_Types Total_Item_Requests and Unique_Item_Requests."
+"Breaks down the usage of journal content, excluding Gold Open Access content, "
+"by year of publication (YOP), providing counts for the Metric_Types "
+"Total_Item_Requests and Unique_Item_Requests."
 
-#: ../../en/doc.rst:320
+#: ../../en/doc.rst:328
 msgid "Metric types"
 msgstr ""
 
-#: ../../en/doc.rst:323
+#: ../../en/doc.rst:331
 msgid "Investigations / Requests"
 msgstr ""
 
-#: ../../en/doc.rst:325
+#: ../../en/doc.rst:333
 msgid ""
-"La spécification Counter 5 distingue les consultations d'éléments de "
-"contenu selon les types *Request* et *Investigation*."
+"La spécification Counter 5 distingue les consultations d'éléments de contenu "
+"selon les types *Request* et *Investigation*."
 msgstr ""
 "The Counter 5 specification divides the consultation of content elements "
 "according to the types *Request* and *Investigation*."
 
-#: ../../en/doc.rst:327
+#: ../../en/doc.rst:335
 msgid ""
-"Une *Request* est un accès à un élement de contenu en texte intégral : un"
-" article en HTML ou en PDF, un numéro de revue complet en PDF, un "
-"chapitre de livre ou un livre complet, en  HTML, PDF ou ePub."
+"Une *Request* est un accès à un élement de contenu en texte intégral : un "
+"article en HTML ou en PDF, un numéro de revue complet en PDF, un chapitre de "
+"livre ou un livre complet, en  HTML, PDF ou ePub."
 msgstr ""
-"A *Request* is an access to a full text content item: an article in HTML "
-"or PDF, a full journal issue in PDF, a book chapter or a full book, in "
-"HTML, PDF or ePub."
+"A *Request* is an access to a full text content item: an article in HTML or "
+"PDF, a full journal issue in PDF, a book chapter or a full book, in HTML, PDF "
+"or ePub."
 
-#: ../../en/doc.rst:329
+#: ../../en/doc.rst:337
 msgid ""
-"Une *Investigation* est un accès à un élement de contenu en texte "
-"intégral OU à des informations présentant cet élément de contenu : les "
-"accès aux sommaires de numéros de revues ou de livres, les accès aux "
-"résumés des articles sous barrière mobile, les accès aux résumés des "
-"chapitres de livres en accès exclusif. Notez que les accès de type "
-"*Requests* sont aussi comptabilisés dans les *Investigations*."
+"Une *Investigation* est un accès à un élement de contenu en texte intégral OU à "
+"des informations présentant cet élément de contenu : les accès aux sommaires de "
+"numéros de revues ou de livres, les accès aux résumés des articles sous "
+"barrière mobile, les accès aux résumés des chapitres de livres en accès "
+"exclusif. Notez que les accès de type *Requests* sont aussi comptabilisés dans "
+"les *Investigations*."
 msgstr ""
-"An *Investigation* is an access to a full-text content item OR to "
-"information presenting that content item: access to journal issue or "
-"book, access to abstracts of moving wall articles, access to abstracts of"
-" books an book chapters in exclusive access. Note that Requests accesses "
-"are also counted in Investigations."
+"An *Investigation* is an access to a full-text content item OR to information "
+"presenting that content item: access to journal issue or book, access to "
+"abstracts of moving wall articles, access to abstracts of books an book "
+"chapters in exclusive access. Note that Requests accesses are also counted in "
+"Investigations."
 
-#: ../../en/doc.rst:331
+#: ../../en/doc.rst:339
+#, fuzzy
 msgid ""
-"Vous pouvez consulter la description complète et illustrée formulée par "
-"Counter à l'adresse suivante : https://www.projectcounter.org/code-of-"
-"practice-five-sections/3-0-technical-specifications/#commonattributes."
+"Vous pouvez consulter la description complète et illustrée formulée par Counter "
+"à l'adresse suivante : https://cop5.countermetrics.org/en/5.1.0.1/03-"
+"specifications/03-counter-report-common-attributes-and-elements.html"
 msgstr ""
-"You can read the complete and illustrated description formulated by "
-"Counter at the following URL: https://www.projectcounter.org/code-of-"
-"practice-five-sections/3-0-technical-specifications/#commonattributes."
+"You can read the complete and illustrated description formulated by Counter at "
+"the following URL: https://www.projectcounter.org/code-of-practice-five-"
+"sections/3-0-technical-specifications/#commonattributes."
 
-#: ../../en/doc.rst:334
+#: ../../en/doc.rst:342
 msgid "Total_Item_Investigations et Total_Item_Requests"
 msgstr "Total_Item_Investigations and Total_Item_Requests"
 
-#: ../../en/doc.rst:336
+#: ../../en/doc.rst:344
 msgid ""
-"Les mesures *Total_Item_Investigations* et *Total_Item_Requests* "
-"comptabilisent tous les accès à une ressource. Lorsqu’un utilisateur "
-"accède à une ressouce (un article, un ouvrage ou un chapitre "
-"d’ouvrage...) plusieurs fois au cours d’une :ref:`session utilisateur "
-"<user-session>`, chaque accès à cette ressource est comptabilisé dans "
-"*Total_Item_**. Les doubles clics éventuels ne sont pas comptabilisés."
+"Les mesures *Total_Item_Investigations* et *Total_Item_Requests* comptabilisent "
+"tous les accès à une ressource. Lorsqu’un utilisateur accède à une ressouce (un "
+"article, un ouvrage ou un chapitre d’ouvrage...) plusieurs fois au cours d’une :"
+"ref:`session utilisateur <user-session>`, chaque accès à cette ressource est "
+"comptabilisé dans *Total_Item_**. Les doubles clics éventuels ne sont pas "
+"comptabilisés."
 msgstr ""
-"The *Total_Item_Investigations* and *Total_Item_Requests* metrics count "
-"all accesses to a resource. When a user is accessing a resource (an "
-"article, a book or a chapter of a book...) several times during a "
-":ref:`user session <user-session>`, each access to this resource is "
-"counted in *Total_Item_**. Eventual double clicks are ignored."
+"The *Total_Item_Investigations* and *Total_Item_Requests* metrics count all "
+"accesses to a resource. When a user is accessing a resource (an article, a book "
+"or a chapter of a book...) several times during a :ref:`user session <user-"
+"session>`, each access to this resource is counted in *Total_Item_**. Eventual "
+"double clicks are ignored."
 
-#: ../../en/doc.rst:339
+#: ../../en/doc.rst:347
 msgid "Unique_Item_Investigations et Unique_Item_Requests"
 msgstr "Unique_Item_Investigations and Unique_Item_Requests"
 
-#: ../../en/doc.rst:341
+#: ../../en/doc.rst:349
 msgid ""
 "Les mesures *Unique_Item_Investigations* et *Unique_Item_Requests* "
-"comptabilisent le nombre d’éléments de contenu (chapitres, articles, "
-"etc.) ayant fait l’objet d’une *Request* ou d'une *Investigation* pris en"
-" compte une seule fois par :ref:`session utilisateur <user-session>`."
+"comptabilisent le nombre d’éléments de contenu (chapitres, articles, etc.) "
+"ayant fait l’objet d’une *Request* ou d'une *Investigation* pris en compte une "
+"seule fois par :ref:`session utilisateur <user-session>`."
 msgstr ""
-"The *Unique_Item_Investigations* and *Unique_Item_Requests* metrics count"
-" the number of content items (chapters, articles, etc.) accessed, "
-"considered only once by :ref:`user session <user-session>`."
+"The *Unique_Item_Investigations* and *Unique_Item_Requests* metrics count the "
+"number of content items (chapters, articles, etc.) accessed, considered only "
+"once by :ref:`user session <user-session>`."
 
-#: ../../en/doc.rst:344
+#: ../../en/doc.rst:352
 msgid "Unique_Title_Investigations et Unique_Title_Requests"
 msgstr "Unique_Title_Investigations et Unique_Title_Requests"
 
-#: ../../en/doc.rst:346
+#: ../../en/doc.rst:354
 msgid ""
-"Les mesures *Unique_Title_Investigations* et *Unique_Title_Requests* ne "
-"sont applicables que pour les livres. Elles comptabilisent le nombre "
-"d'accès uniques à un livre durant une :ref:`session utilisateur <user-"
-"session>`. Ainsi, les accès d'un lecteur à 3 chapitres d'un livre en "
-"texte intégral au cours d'une session ne seront comptabilisés qu'une fois"
-" dans la mesure *Unique_Title_Requests*."
+"Les mesures *Unique_Title_Investigations* et *Unique_Title_Requests* ne sont "
+"applicables que pour les livres. Elles comptabilisent le nombre d'accès uniques "
+"à un livre durant une :ref:`session utilisateur <user-session>`. Ainsi, les "
+"accès d'un lecteur à 3 chapitres d'un livre en texte intégral au cours d'une "
+"session ne seront comptabilisés qu'une fois dans la mesure "
+"*Unique_Title_Requests*."
 msgstr ""
-"The metrics *Unique_Title_Investigations* and *Unique_Title_Requests* are"
-" only applicable for books. They measure the number of unique accesses to"
-" a book during a user session. Thus, a reader's accesses to 3 chapters of"
-" a full-text book during a :ref:`user session <user-session>` will only "
-"be counted once in the *Unique_Title_Requests* metric."
-
-#: ../../en/doc.rst:351
-msgid "Session utilisateur"
-msgstr "User session"
-
-#: ../../en/doc.rst:353
-msgid ""
-"Utilisée dans le calcul des mesures *Unique_**, la session d'un "
-"utilisateur est définie par 3 critères |_| :"
-msgstr ""
-"Used in the Unique_* measurements computation, a user session is defined "
-"by 3 criteria:"
-
-#: ../../en/doc.rst:355
-msgid "l'adresse IP de l'utilisateur ;"
-msgstr "the user IP address;"
-
-#: ../../en/doc.rst:356
-msgid "le *user-agent* de l'utilisateur ;"
-msgstr "the user-agent;"
+"The metrics *Unique_Title_Investigations* and *Unique_Title_Requests* are only "
+"applicable for books. They measure the number of unique accesses to a book "
+"during a user session. Thus, a reader's accesses to 3 chapters of a full-text "
+"book during a :ref:`user session <user-session>` will only be counted once in "
+"the *Unique_Title_Requests* metric."
 
 #: ../../en/doc.rst:357
-msgid ""
-"la date + l'heure de la consultation (comprise entre 0 et 23 ; on ne "
-"considère pas les minutes et secondes)"
-msgstr ""
-"the date + the time of the visit (between 0 and 23; minutes and seconds "
-"are not considered)"
+msgid "Item et Livres : Différences 5.0 / 5.1"
+msgstr "Item and Books: Differences 5.0 / 5.1"
 
 #: ../../en/doc.rst:359
 msgid ""
-"Il s'agit d'une approximation de session. En effet, OpenEdition "
-"n'enregistre pas les sessions utilisateurs des lecteurs. Cette méthode "
-"est valide selon le Code de pratique Counter 5 : `7.3 Counting Unique "
-"Items <https://www.projectcounter.org/code-of-practice-five-sections/7"
-"-processing-rules-underlying-counter-reporting-data/#counting>`_."
-msgstr ""
-"This is a session approximation. Indeed, OpenEdition does not record the "
-"user sessions of the readers. This method is valid according to the "
-"Counter 5 Code of Practice: `7.3 Counting Unique Items "
-"<https://www.projectcounter.org/code-of-practice-five-sections/7"
-"-processing-rules-underlying-counter-reporting-data/#counting>`_."
+"Les Items sont comptabilisés différement pour le téléchargement d'un livre "
+"complet."
+msgstr "Items are counted differently for downloading an entire book."
 
-#: ../../en/doc.rst:365
+#: ../../en/doc.rst:361
+msgid "**Téléchargement en PDF ou ePub d'un livre de 10 chapitres**"
+msgstr "**Download a 10-chapter book in PDF or ePub format**"
+
+#: ../../en/doc.rst:364
+msgid "Mertic"
+msgstr ""
+
+#: ../../en/doc.rst:364 ../../en/doc.rst:449
+msgid "Counter 5.0"
+msgstr ""
+
+#: ../../en/doc.rst:364 ../../en/doc.rst:449
+msgid "Counter 5.1"
+msgstr ""
+
+#: ../../en/doc.rst:366 ../../en/doc.rst:368 ../../en/doc.rst:370
+msgid "1"
+msgstr ""
+
+#: ../../en/doc.rst:366 ../../en/doc.rst:368
+msgid "10"
+msgstr ""
+
+#: ../../en/doc.rst:370
+msgid "Unique_Title_Request"
+msgstr ""
+
+#: ../../en/doc.rst:377
+msgid "Session utilisateur"
+msgstr "User session"
+
+#: ../../en/doc.rst:379
+msgid ""
+"Utilisée dans le calcul des mesures *Unique_**, la session d'un utilisateur est "
+"définie par 3 critères |_| :"
+msgstr ""
+"Used in the Unique_* measurements computation, a user session is defined by 3 "
+"criteria:"
+
+#: ../../en/doc.rst:381
+msgid "l'adresse IP de l'utilisateur ;"
+msgstr "the user IP address;"
+
+#: ../../en/doc.rst:382
+msgid "le *user-agent* de l'utilisateur ;"
+msgstr "the user-agent;"
+
+#: ../../en/doc.rst:383
+msgid ""
+"la date + l'heure de la consultation (comprise entre 0 et 23 ; on ne considère "
+"pas les minutes et secondes)"
+msgstr ""
+"the date + the time of the visit (between 0 and 23; minutes and seconds are not "
+"considered)"
+
+#: ../../en/doc.rst:385
+msgid ""
+"Il s'agit d'une approximation de session. En effet, OpenEdition n'enregistre "
+"pas les sessions utilisateurs des lecteurs. Cette méthode est valide selon le "
+"Code de pratique Counter 5 : `7.3 Counting Unique Items <https://cop5."
+"countermetrics.org/en/5.1.0.1/07-processing/03-counting-unique-items.html>`_."
+msgstr ""
+"This is a session approximation. Indeed, OpenEdition does not record the user "
+"sessions of the readers. This method is valid according to the Counter 5 Code "
+"of Practice: `7.3 Counting Unique Items <https://cop5.countermetrics.org/"
+"en/5.1.0.1/07-processing/03-counting-unique-items.html>`_."
+
+#: ../../en/doc.rst:391
 msgid ""
 "Comptabilise les accès refusés à une ressource en accès reservé. Sur "
 "OpenEdition, il peut s'agir |_| :"
 msgstr ""
-"Records access denied to a resource in restricted access. On OpenEdition,"
-" this can be:"
+"Records access denied to a resource in restricted access. On OpenEdition, this "
+"can be:"
 
-#: ../../en/doc.rst:367
+#: ../../en/doc.rst:393
 msgid "d'articles de revues sous barrière mobile |_| ;"
 msgstr "journal articles under embargo;"
 
-#: ../../en/doc.rst:368
+#: ../../en/doc.rst:394
 msgid ""
-"d'articles ou de numéros de revues au format PDF ou ePub pour les revues "
-"du bouquet Open Access Freemium, pour les institutions non abonnées |_| ;"
+"d'articles ou de numéros de revues au format PDF ou ePub pour les revues du "
+"bouquet Open Access Freemium, pour les institutions non abonnées |_| ;"
 msgstr ""
-"articles or journal issues in PDF or ePub format for journals of the Open"
-" Access Freemium bundle, for non-subscribing institutions;"
+"articles or journal issues in PDF or ePub format for journals of the Open "
+"Access Freemium bundle, for non-subscribing institutions;"
 
-#: ../../en/doc.rst:369
+#: ../../en/doc.rst:395
 msgid ""
 "de livres ou de chapitre de livres en accès exclusif, non acquis par "
 "l'institution |_| ;"
@@ -597,221 +660,323 @@ msgstr ""
 "books or chapters of books in restricted access, not acquired by the "
 "institution;"
 
-#: ../../en/doc.rst:370
+#: ../../en/doc.rst:396
 msgid ""
-"de livres ou de chapitre de livres au format PDF ou ePub en accès "
-"exclusif ou Open Access Freemium, non acquis par l'institution."
+"de livres ou de chapitre de livres au format PDF ou ePub en accès exclusif ou "
+"Open Access Freemium, non acquis par l'institution."
 msgstr ""
-"books or book chapters in PDF or ePub format in restricted access or Open"
-" Access Freemium, not acquired by the institution."
+"books or book chapters in PDF or ePub format in restricted access or Open "
+"Access Freemium, not acquired by the institution."
 
-#: ../../en/doc.rst:376
+#: ../../en/doc.rst:402
 #, fuzzy
 msgid ""
-"OpenEdition ne limite pas le nombre d'accès simultanés à une ressource. "
-"Le Metric_Type Limit_Exceeded ne renvoie donc aucun résultat."
+"OpenEdition ne limite pas le nombre d'accès simultanés à une ressource. Le "
+"Metric_Type Limit_Exceeded ne renvoie donc aucun résultat."
 msgstr ""
 "OpenEdition does not limit the number of simultaneous connections to a "
-"resource. Thus, the Metric_Type *Limit_Exceeded does not return any "
-"results."
+"resource. Thus, the Metric_Type *Limit_Exceeded does not return any results."
 
-#: ../../en/doc.rst:381
+#: ../../en/doc.rst:407
 msgid ""
-"Recherches effectuées par les utilisateurs et disponible au niveau "
-"Platform uniquement."
+"Recherches effectuées par les utilisateurs et disponible au niveau Platform "
+"uniquement."
 msgstr "User searches available at the Platform level only."
 
-#: ../../en/doc.rst:383
+#: ../../en/doc.rst:409
 msgid "Sur OpenEdition, cela correspond aux recherches effectuées |_| :"
 msgstr "On OpenEdition, this matches the searches done :"
 
-#: ../../en/doc.rst:385
+#: ../../en/doc.rst:411
 msgid "sur OpenEdition Search (https://search.openedition.org) |_| ;"
 msgstr "on OpenEdition Search (https://search.openedition.org);"
 
-#: ../../en/doc.rst:386
+#: ../../en/doc.rst:412
 msgid ""
-"dans le catalogue des revues (https://www.openedition.org/catalogue-"
-"journals) |_| ;"
+"dans le catalogue des revues (https://www.openedition.org/catalogue-journals) |"
+"_| ;"
 msgstr "in the journal catalog (https://www.openedition.org/catalogue-journals);"
 
-#: ../../en/doc.rst:387
+#: ../../en/doc.rst:413
 msgid ""
-"dans le catalogue des livres (https://books.openedition.org/catalogue) "
-"|_| ;"
+"dans le catalogue des livres (https://books.openedition.org/catalogue) |_| ;"
 msgstr "in the book catalog (https://books.openedition.org/catalogue);"
 
-#: ../../en/doc.rst:388
+#: ../../en/doc.rst:414
 msgid ""
-"dans un livre particulier (ex. "
-"https://books.openedition.org/oep/8713?query=archive)."
+"dans un livre particulier (ex. https://books.openedition.org/oep/8713?"
+"q=archive)."
 msgstr ""
-"in a particular book (e.g. "
-"https://books.openedition.org/oep/8713?query=archive)."
+"in a particular book (e.g. https://books.openedition.org/oep/8713?q=archive)."
 
-#: ../../en/doc.rst:393
+#: ../../en/doc.rst:419
 msgid ""
-"La documentation de l'API Sushi est disponible à cette adresse |_| : "
-"https://counter5.openedition.org/api/doc."
+"La documentation de l'API Sushi est disponible à cette adresse |_| : https://"
+"counter5.openedition.org/api/doc."
 msgstr ""
-"The Sushi API documentation is available at this address: "
-"https://counter5.openedition.org/api/doc."
+"The Sushi API documentation is available at this address: https://counter5."
+"openedition.org/api/doc."
 
-#: ../../en/doc.rst:397
-msgid "Counter 5 et contenus Freemium"
-msgstr "Counter 5 and OpenEdition Freemium"
+#: ../../en/doc.rst:423
+msgid "Counter 5 et Access_Type"
+msgstr "Counter 5 and Access_Type"
 
-#: ../../en/doc.rst:399
+#: ../../en/doc.rst:425
 msgid ""
-"Les revues et les livres publiés en *Open Access Freemium* sont "
-"disponibles en libre accès au format HTML et en accès retreint pour les "
-"formats PDF et ePub. De ce fait, et suivant les recommandations du "
-"*Technical Advisory Group Counter* |_| :"
+"La notion d'Access_Type a évolué entre Counter 5.0 et Counter 5.1, en "
+"particulier pour la diffusion Freemium."
 msgstr ""
-"Journals and books published in *Open Access Freemium* are available in "
-"open access in HTML format and in restricted access for PDF and ePub "
-"formats. As a result, and following the recommendations of the *Technical"
-" Advisory Group Counter*:"
+"The concept of Access_Type has changed between Counter 5.0 and Counter 5.1, "
+"particularly for Freemium access."
 
-#: ../../en/doc.rst:401
+#: ../../en/doc.rst:428
+msgid "Counter 5.0 Access_Type et diffusion Freemium"
+msgstr "Counter 5 .0 Access_Type and OpenEdition Freemium"
+
+#: ../../en/doc.rst:430
+msgid ""
+"Les revues et les livres publiés en *Open Access Freemium* sont disponibles en "
+"libre accès au format HTML et en accès retreint pour les formats PDF et ePub. "
+"De ce fait, et suivant les recommandations du *Technical Advisory Group "
+"Counter* |_| :"
+msgstr ""
+"Journals and books published in *Open Access Freemium* are available in open "
+"access in HTML format and in restricted access for PDF and ePub formats. As a "
+"result, and following the recommendations of the *Technical Advisory Group "
+"Counter*:"
+
+#: ../../en/doc.rst:432
 msgid ""
 "Les requêtes sur le contenu HTML sont comptabilisées avec un "
 "Access_Type='OA_Gold'."
 msgstr "Requests on HTML content are counted with an Access_Type='OA_Gold'."
 
-#: ../../en/doc.rst:402
+#: ../../en/doc.rst:433
 msgid ""
 "Les requêtes sur le contenu PDF et ePub sont comptabilisées avec un "
 "Access_type='Controlled'."
 msgstr ""
-"Requests on PDF and ePub content are counted with an "
-"Access_Type='Controlled'."
+"Requests on PDF and ePub content are counted with an Access_Type='Controlled'."
 
-#: ../../en/doc.rst:404
+#: ../../en/doc.rst:435
 msgid ""
-"Une instition abonnée pourra donc observer dans ses rapports Counter 5, "
-"pour une même revue, des consultations ayant pour *Access_Type* "
-"\"OA_Gold\" (les consultations aux versions HTML) ET des consultations "
-"ayant pour *Access_Type* \"Controlled\" (les consultations aux versions "
-"PDF et ePub)."
+"Une instition abonnée pourra donc observer dans ses rapports Counter 5, pour "
+"une même revue, des consultations ayant pour *Access_Type* \"OA_Gold\" (les "
+"consultations aux versions HTML) ET des consultations ayant pour *Access_Type* "
+"\"Controlled\" (les consultations aux versions PDF et ePub)."
 msgstr ""
-"A subscribing institution will therefore be able to observe in its "
-"Counter 5 reports, for the same journal, requests having for "
-"*Access*_Type \"OA_Gold\" (requests for HTML versions) AND requests "
-"having for *Access_Type* \"Controlled\" (requests for PDF and ePub "
-"versions)."
+"A subscribing institution will therefore be able to observe in its Counter 5 "
+"reports, for the same journal, requests having for *Access*_Type "
+"\"OA_Gold\" (requests for HTML versions) AND requests having for *Access_Type* "
+"\"Controlled\" (requests for PDF and ePub versions)."
 
-#: ../../en/doc.rst:408
-msgid "Date de disponibilité des rapports et temps de reponse"
-msgstr "Date of report availability and response time"
+#: ../../en/doc.rst:438
+msgid "Counter 5.1 access_type et diffusion Freemium"
+msgstr "Counter 5 .1 Access_Type and OpenEdition Freemium"
 
-#: ../../en/doc.rst:411
+#: ../../en/doc.rst:440
+msgid ""
+"Le code de bonnes pratiques COUNTER exige un seul Access_Type pour chaque "
+"élément (Item) et recommande d'utiliser le type d'accès le plus restrictif "
+"lorsque différentes parties de l'élément peuvent avoir des règles d'accès "
+"différentes."
+msgstr ""
+"The COUNTER Code of Practice requires a single Access_Type for each item and "
+"recommends using the most restrictive access type when different parts of the "
+"item may have different access rules."
+
+#: ../../en/doc.rst:442
+msgid ""
+"Dans le cas de la diffusion en Open access Freemium, toutes les consultations "
+"sont donc qualifiées avec Access_Type = Controlled"
+msgstr ""
+"For Freemium Open Access distribution, all consultations are therefore "
+"classified with Access_Type = Controlled."
+
+#: ../../en/doc.rst:446
+msgid "Tableau récupitualtif des Access_Type"
+msgstr "Summary table of Access_Type"
+
+#: ../../en/doc.rst:451
+msgid "**Revue à barrière mobile**"
+msgstr "**Embargo Journal**"
+
+#: ../../en/doc.rst:453
+msgid "Articles sous la barrière mobile"
+msgstr "Journal articles under embargo"
+
+#: ../../en/doc.rst:453 ../../en/doc.rst:455 ../../en/doc.rst:463
+#: ../../en/doc.rst:465 ../../en/doc.rst:473 ../../en/doc.rst:477
+#: ../../en/doc.rst:479
+msgid "Controlled"
+msgstr ""
+
+#: ../../en/doc.rst:455
+msgid "Articles hors barrière mobile"
+msgstr "Articles out of embargo"
+
+#: ../../en/doc.rst:455 ../../en/doc.rst:459 ../../en/doc.rst:469
+msgid "Open"
+msgstr ""
+
+#: ../../en/doc.rst:457
+msgid "**Revue en Open Access**"
+msgstr "**Open Access Journal**"
+
+#: ../../en/doc.rst:459
+msgid "Tous les articles"
+msgstr "All articles"
+
+#: ../../en/doc.rst:459 ../../en/doc.rst:463 ../../en/doc.rst:469
+#: ../../en/doc.rst:477
+msgid "OA_Gold"
+msgstr ""
+
+#: ../../en/doc.rst:461
+msgid "**Revue en Open Access Freemium**"
+msgstr "**Open Access Freemium Journal**"
+
+#: ../../en/doc.rst:463
+msgid "Tous les articles au format HTML"
+msgstr "All articles in HTML format"
+
+#: ../../en/doc.rst:465
+msgid "Tous les articles au format PDF ou ePub"
+msgstr "All articles in PDF or ePub format"
+
+#: ../../en/doc.rst:467
+msgid "**Livre en Open Access**"
+msgstr "**Open Access Book**"
+
+#: ../../en/doc.rst:469 ../../en/doc.rst:473
+msgid "Tous les chapitres, tous les formats"
+msgstr "All chapters, all formats"
+
+#: ../../en/doc.rst:471
+msgid "**Livre en accès exclusif**"
+msgstr "**Restricted Access Book**"
+
+#: ../../en/doc.rst:475
+msgid "**Livre en Open Access Freemuim**"
+msgstr "**Open Access Freemuim Book**"
+
+#: ../../en/doc.rst:477
+msgid "Tous les chapitres au format HTML"
+msgstr "All chapters in HTML format"
+
+#: ../../en/doc.rst:479
+msgid "Tous les chapitres au format PDF ou ePub"
+msgstr "All chapters in PDF or ePub format"
+
+#: ../../en/doc.rst:485
 msgid "Dates et durée de disponibilité des rapports"
 msgstr "Dates and availability of reports"
 
-#: ../../en/doc.rst:413
-msgid "Les rapports sont disponibles à compter du mois de juillet 2020."
-msgstr "The Reports are available as of July 2020."
-
-#: ../../en/doc.rst:414
+#: ../../en/doc.rst:487
 msgid ""
-"Les rapports pour un mois donné sont disponibles à partir du 5 du mois "
-"suivant."
+"Les rapports pour un mois donné sont disponibles à partir du 5 du mois suivant."
 msgstr ""
-"Reports for a given month are available from the 5th of the following "
-"month."
+"Reports for a given month are available from the 5th of the following month."
 
-#: ../../en/doc.rst:415
+#: ../../en/doc.rst:488
 msgid ""
-"Les rapports sont disponibles pour une durée de 2 ans plus l'année "
-"courante. Ainsi, les rapports de janvier 2021 et de février 2021 seront "
-"disponibles jusqu'au 31/12/2023. Il sera impossible de régénérer les "
-"rapports une fois la période de disponibilité écoulée. Les données "
-"devront donc avoir été moissonnées préalablement."
+"Les rapports sont disponibles pour une durée de 2 ans plus l'année courante. "
+"Ainsi, les rapports de janvier 2024 et de février 2024 seront disponibles "
+"jusqu'au 31/12/2026. Il sera impossible de régénérer les rapports une fois la "
+"période de disponibilité écoulée. Les données devront donc avoir été "
+"moissonnées préalablement."
 msgstr ""
-"Reports are available for 2 years plus the current year. Thus, reports "
-"for January 2021 and February 2021 will be available until 12/31/2023. It"
-" will not be possible to get the reports once the availability period has"
-" expired. Therefore, the data will have to be harvested beforehand."
+"Reports are available for 2 years plus the current year. Thus, reports for "
+"January 2024 and February 2024 will be available until 12/31/2026. It will not "
+"be possible to get the reports once the availability period has expired. "
+"Therefore, the data will have to be harvested beforehand."
 
-#: ../../en/doc.rst:418
-msgid "Temps de réponse et mise en cache"
-msgstr "Response time and caching"
-
-#: ../../en/doc.rst:420
-msgid ""
-"Ce service traite d'importants volumes de données et peut de ce fait "
-"nécessiter des temps de calcul importants."
-msgstr ""
-"This service handles large volumes of data and can require significant "
-"computing time."
-
-#: ../../en/doc.rst:422
-msgid ""
-"Si le temps de calcul d'un rapport dépasse la limite définie par Counter "
-"5 (120 sec.), l'application renverra un avertissement vous invitant à "
-"ré-exécuter votre requête. Dans ce cas, le calcul du rapport continue en "
-"arrière-plan et lorsque vous ré-exécuterez la demande après quelques "
-"minutes, l'application disposera du rapport pré-calculé et pourra vous le"
-" renvoyer."
-msgstr ""
-"If the computing time of a report exceeds the limit defined by Counter 5 "
-"(120 sec.), the application will send a warning inviting you to reexecute"
-" your request. In this case, the calculation of the report continues in "
-"background and when you re-execute the request after a few minutes, the "
-"application will have the pre-calculated report and will be able to "
-"return it to you."
-
-#: ../../en/doc.rst:424
-msgid ""
-"Ce comportement s'applique également à Sushi qui renverra l'exception "
-"1011 définie par Counter 5 |_| : "
-"https://www.projectcounter.org/appendix-f-handling-errors-exceptions/"
-msgstr ""
-"This behavior also applies to Sushi which will return the exception 1011 "
-"defined by Counter 5: https://www.projectcounter.org/appendix-f-handling-"
-"errors-exceptions/"
-
-#: ../../en/doc.rst:426
-msgid ""
-"Le temps de génération dépend de la complexité et la taille du rapport "
-"demandé, notamment l'utilisation simultanée de plusieurs attributs, "
-"l'utilisation de plages temporelles de plusieurs mois, les rapports pour "
-"les consortia..."
-msgstr ""
-"The computing time depends on the complexity and size of the requested "
-"report, in particular the simultaneous use of several attributes, the use"
-" of time ranges of several months, reports for consortia."
-
-#: ../../en/doc.rst:428
-msgid ""
-"Pour faciliter l'utilisation de l'application, les rapports des derniers "
-"mois (4 derniers mois environ) sont pré-caclulés et stockés en mémoire "
-"cache. Le temps de réponse est de ce fait beaucoup amélioré pour les mois"
-" récents. Pour les rapports plus anciens, il faut faire preuve de "
-"patience."
-msgstr ""
-"To facilitate the use of the application, the reports of the last months "
-"(about 4 last months) are pre-cached (in cache memory). The response time"
-" is therefore significantly improved for recent months. For older "
-"reports, patience is required."
-
-#: ../../en/doc.rst:431
+#: ../../en/doc.rst:492
 msgid "Certification"
 msgstr "Certification"
 
-#: ../../en/doc.rst:433
+#: ../../en/doc.rst:494
 msgid ""
-"Le service Counter 5 d'OpenEdition est certifié régulièrement par un "
-"audit indépendant."
-msgstr "OpenEdition's Counter 5 service is regularly certified by an independent audit."
+"Le service Counter 5 d'OpenEdition a été **certifié pour Counter 5.0** par un "
+"audit indépendant en 2021."
+msgstr ""
+"OpenEdition's Counter 5 service was **certified for Counter 5.0** by an "
+"independent audit in 2021."
+
+#: ../../en/doc.rst:-1
+msgid "Counter audit passed"
+msgstr ""
+
+#: ../../en/doc.rst:502
+msgid "**La certification pour Counter 5.1 est prévue en 2026.**"
+msgstr ""
+"**Certification for Counter 5.1 is scheduled for 2026.****Certification for "
+"Counter 5.1 is scheduled for 2026.**"
 
 #~ msgid ""
-#~ "Le premier audit de certification des"
-#~ " statistiques Counter 5 est en cours"
-#~ " (janvier 2021)."
+#~ "Le premier audit de certification des statistiques Counter 5 est en cours "
+#~ "(janvier 2021)."
 #~ msgstr ""
-#~ "The first certification audit of Counter"
-#~ " 5 statistics is in progress (January"
-#~ " 2021)."
+#~ "The first certification audit of Counter 5 statistics is in progress "
+#~ "(January 2021)."
 
+#~ msgid "Date de disponibilité des rapports et temps de reponse"
+#~ msgstr "Date of report availability and response time"
+
+#~ msgid "Les rapports sont disponibles à compter du mois de juillet 2020."
+#~ msgstr "The Reports are available as of July 2020."
+
+#~ msgid "Temps de réponse et mise en cache"
+#~ msgstr "Response time and caching"
+
+#~ msgid ""
+#~ "Ce service traite d'importants volumes de données et peut de ce fait "
+#~ "nécessiter des temps de calcul importants."
+#~ msgstr ""
+#~ "This service handles large volumes of data and can require significant "
+#~ "computing time."
+
+#~ msgid ""
+#~ "Si le temps de calcul d'un rapport dépasse la limite définie par Counter 5 "
+#~ "(120 sec.), l'application renverra un avertissement vous invitant à ré-"
+#~ "exécuter votre requête. Dans ce cas, le calcul du rapport continue en "
+#~ "arrière-plan et lorsque vous ré-exécuterez la demande après quelques "
+#~ "minutes, l'application disposera du rapport pré-calculé et pourra vous le "
+#~ "renvoyer."
+#~ msgstr ""
+#~ "If the computing time of a report exceeds the limit defined by Counter 5 "
+#~ "(120 sec.), the application will send a warning inviting you to reexecute "
+#~ "your request. In this case, the calculation of the report continues in "
+#~ "background and when you re-execute the request after a few minutes, the "
+#~ "application will have the pre-calculated report and will be able to return "
+#~ "it to you."
+
+#~ msgid ""
+#~ "Ce comportement s'applique également à Sushi qui renverra l'exception 1011 "
+#~ "définie par Counter 5 |_| : https://www.projectcounter.org/appendix-f-"
+#~ "handling-errors-exceptions/"
+#~ msgstr ""
+#~ "This behavior also applies to Sushi which will return the exception 1011 "
+#~ "defined by Counter 5: https://www.projectcounter.org/appendix-f-handling-"
+#~ "errors-exceptions/"
+
+#~ msgid ""
+#~ "Le temps de génération dépend de la complexité et la taille du rapport "
+#~ "demandé, notamment l'utilisation simultanée de plusieurs attributs, "
+#~ "l'utilisation de plages temporelles de plusieurs mois, les rapports pour les "
+#~ "consortia..."
+#~ msgstr ""
+#~ "The computing time depends on the complexity and size of the requested "
+#~ "report, in particular the simultaneous use of several attributes, the use of "
+#~ "time ranges of several months, reports for consortia."
+
+#~ msgid ""
+#~ "Pour faciliter l'utilisation de l'application, les rapports des derniers "
+#~ "mois (4 derniers mois environ) sont pré-caclulés et stockés en mémoire "
+#~ "cache. Le temps de réponse est de ce fait beaucoup amélioré pour les mois "
+#~ "récents. Pour les rapports plus anciens, il faut faire preuve de patience."
+#~ msgstr ""
+#~ "To facilitate the use of the application, the reports of the last months "
+#~ "(about 4 last months) are pre-cached (in cache memory). The response time is "
+#~ "therefore significantly improved for recent months. For older reports, "
+#~ "patience is required."
