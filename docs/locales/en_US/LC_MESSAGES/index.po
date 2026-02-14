@@ -9,7 +9,7 @@ msgstr ""
 "Project-Id-Version: OpenEdition Counter 5 Documentation\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2026-02-13 16:02+0100\n"
-"PO-Revision-Date: 2026-02-13 17:11+0100\n"
+"PO-Revision-Date: 2026-02-14 10:23+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: en_US\n"
@@ -71,14 +71,12 @@ msgstr ""
 "5 format."
 
 #: ../../en/index.rst:14
-#, fuzzy
 msgid ""
 "Le code des bonnes pratiques Counter 5 est disponible en anglais sur le "
 "site de Counter |_| : https://www.countermetrics.org/code-of-practice/."
 msgstr ""
 "The COUNTER Code of Practice for Release 5 is available on Counter "
-"Website: https://www.projectcounter.org/code-of-practice-five-sections/"
-"abstract/."
+"Website: https://www.countermetrics.org/code-of-practice/."
 
 #: ../../en/index.rst:16
 msgid ""
